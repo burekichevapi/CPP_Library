@@ -1,0 +1,7 @@
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/install/local.dir
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/install.dir

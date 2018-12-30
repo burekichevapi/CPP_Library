@@ -1,0 +1,1 @@
+/usr/lib/libAmer_Delic.so

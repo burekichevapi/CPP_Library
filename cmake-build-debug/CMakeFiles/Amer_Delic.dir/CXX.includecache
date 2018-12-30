@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ArrayStack.h
+iostream
+-
+
+../include/FileManager.h
+fstream
+-
+
+../include/ILinkedList.h
+Node.h
+../include/Node.h
+
+../include/IStack.h
+ILinkedList.h
+../include/ILinkedList.h
+
+../include/Node.h
+
+../include/console_management.h
+string
+-
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp
+ArrayStack.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.h
+iostream
+-
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
+iostream
+-
+ILinkedList.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ILinkedList.h
+Node.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/FileManager.cpp
+FileManager.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/FileManager.h
+iostream
+-
+FileManager.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/FileManager.h
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
+iostream
+-
+ILinkedList.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ILinkedList.h
+Node.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
+Node.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
+IStack.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/IStack.h
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/console_management.cpp
+iostream
+-
+vector
+-
+console_management.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/console_management.h
+
