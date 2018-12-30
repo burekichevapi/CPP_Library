@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/Node.cpp.o"
+  "CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o"
   "libAmer_Delic.pdb"

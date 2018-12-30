@@ -18,6 +18,11 @@ CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o: ../src/LinkedList.cpp
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o: ../src/Node.cpp
 
+CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/ILinkedList.h
+CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/IQueue.h
+CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/Node.h
+CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../src/Queue.cpp
+
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/ILinkedList.h
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/IStack.h
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/Node.h

@@ -29,6 +29,10 @@ public:
 
     virtual void add_last(Node<T> *newNode) = 0;
 
+    virtual void add_last(T item) = 0;
+
+    virtual void add_first(T item) = 0;
+
     virtual void remove_first() = 0;
 
     virtual void remove_last() = 0;
@@ -36,6 +40,10 @@ public:
     virtual bool contains(T value) = 0;
 
     virtual void remove_by_value(T value) = 0;
+
+    virtual T get_head_value() = 0;
+
+    virtual T get_tail_value() = 0;
 };
 
 #endif //AMER_DELIC_ILINKEDLIST_H

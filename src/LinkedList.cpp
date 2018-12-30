@@ -73,6 +73,12 @@ public:
         this->number_of_nodes++;
     }
 
+    void add_first(T item) override
+    {
+        auto *newNode = new Node<T>(item);
+        add_first(newNode);
+    }
+
     void add_last(Node<T> *newNode) override
     {
         if(empty())
@@ -89,6 +95,12 @@ public:
         delete(temp);
 
         this->number_of_nodes++;
+    }
+
+    void add_last(T item) override
+    {
+        auto *newNode = new Node<T>(item);
+        add_last(newNode);
     }
 
     void remove_first() override
@@ -169,5 +181,13 @@ public:
             previous = current;
             current = current->get_next_node();
         }
+    }
+
+    T get_head_value(){
+        return this->_head->get_value();
+    }
+
+    T get_tail_value(){
+        return this->_tail->get_value();
     }
 };

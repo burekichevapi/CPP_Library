@@ -18,6 +18,11 @@ CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o
  ../include/Node.h
  /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
+CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o
+ ../include/ILinkedList.h
+ ../include/IQueue.h
+ ../include/Node.h
+ /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Queue.cpp
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o
  ../include/ILinkedList.h
  ../include/IStack.h

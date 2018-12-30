@@ -304,6 +304,33 @@ src/Node.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Node.cpp.s
 .PHONY : src/Node.cpp.s
 
+src/Queue.o: src/Queue.cpp.o
+
+.PHONY : src/Queue.o
+
+# target to build an object file
+src/Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o
+.PHONY : src/Queue.cpp.o
+
+src/Queue.i: src/Queue.cpp.i
+
+.PHONY : src/Queue.i
+
+# target to preprocess a source file
+src/Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Queue.cpp.i
+.PHONY : src/Queue.cpp.i
+
+src/Queue.s: src/Queue.cpp.s
+
+.PHONY : src/Queue.s
+
+# target to generate assembly for a file
+src/Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Queue.cpp.s
+.PHONY : src/Queue.cpp.s
+
 src/Stack.o: src/Stack.cpp.o
 
 .PHONY : src/Stack.o
@@ -386,6 +413,9 @@ help:
 	@echo "... src/Node.o"
 	@echo "... src/Node.i"
 	@echo "... src/Node.s"
+	@echo "... src/Queue.o"
+	@echo "... src/Queue.i"
+	@echo "... src/Queue.s"
 	@echo "... src/Stack.o"
 	@echo "... src/Stack.i"
 	@echo "... src/Stack.s"
