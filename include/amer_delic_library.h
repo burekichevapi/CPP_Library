@@ -7,6 +7,7 @@
 #include "ILinkedList.h"
 #include "IStack.h"
 #include "ArrayStack.h"
+#include "IQueue.h"
 
 
 #endif

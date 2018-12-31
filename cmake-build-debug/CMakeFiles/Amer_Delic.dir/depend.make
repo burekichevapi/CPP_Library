@@ -5,6 +5,7 @@ CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o: ../include/ArrayStack.h
 CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o: ../src/ArrayStack.cpp
 
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: ../include/ILinkedList.h
+CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: ../include/NoStoredValuesException.h
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: ../src/DoublyLinkedList.cpp
 
@@ -12,6 +13,7 @@ CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o: ../include/FileManager.h
 CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o: ../src/FileManager.cpp
 
 CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o: ../include/ILinkedList.h
+CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o: ../include/NoStoredValuesException.h
 CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o: ../src/LinkedList.cpp
 
@@ -20,11 +22,13 @@ CMakeFiles/Amer_Delic.dir/src/Node.cpp.o: ../src/Node.cpp
 
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/ILinkedList.h
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/IQueue.h
+CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/NoStoredValuesException.h
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../src/Queue.cpp
 
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/ILinkedList.h
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/IStack.h
+CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/NoStoredValuesException.h
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../src/Stack.cpp
 

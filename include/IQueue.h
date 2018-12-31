@@ -1,6 +1,3 @@
-//
-// Created by amer on 12/30/18.
-//
 
 #ifndef AMER_DELIC_IQUEUE_H
 #define AMER_DELIC_IQUEUE_H

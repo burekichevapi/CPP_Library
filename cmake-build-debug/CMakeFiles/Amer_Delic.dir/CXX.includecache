@@ -9,6 +9,8 @@
 ../include/ILinkedList.h
 Node.h
 ../include/Node.h
+NoStoredValuesException.h
+../include/NoStoredValuesException.h
 
 ../include/IQueue.h
 ILinkedList.h
@@ -17,6 +19,10 @@ ILinkedList.h
 ../include/IStack.h
 ILinkedList.h
 ../include/ILinkedList.h
+
+../include/NoStoredValuesException.h
+exception
+-
 
 ../include/Node.h
 

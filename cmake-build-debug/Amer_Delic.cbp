@@ -126,7 +126,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/include/IQueue.h">
+		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/include/NoStoredValuesException.h">
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp">
