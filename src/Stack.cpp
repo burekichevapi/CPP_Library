@@ -19,7 +19,7 @@ public:
         try {
             this->_linkedList->print_all();
         }
-        catch(std::exception& ex)
+        catch(std::out_of_range& ex)
         {
             std::cout << "\nError: " << ex.what() << "\n";
         }
@@ -39,7 +39,7 @@ public:
         try {
             this->_linkedList->remove_first();
         }
-        catch(std::exception& ex)
+        catch(std::out_of_range& ex)
         {
             std::cout << "\nError: " << ex.what() << "\n";
         }
@@ -51,7 +51,7 @@ public:
         try {
             this->_linkedList->clear_all();
         }
-        catch(std::exception& ex)
+        catch(std::out_of_range& ex)
         {
             std::cout << "\nError: " << ex.what() << "\n";
         }

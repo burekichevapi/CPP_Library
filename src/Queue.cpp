@@ -22,7 +22,7 @@ public:
         try {
             this->linkedList->remove_first();
         }
-        catch(NoStoredValuesException& ex)
+        catch(std::out_of_range& ex)
         {
             std::cout << "\nError: " << ex.what() << "\n";
         }
@@ -36,7 +36,7 @@ public:
 
             return next;
         }
-        catch(NoStoredValuesException& ex)
+        catch(std::out_of_range& ex)
         {
             std::cout << "\nError: " << ex.what() << "\n";
             return 0;
@@ -51,7 +51,7 @@ public:
         try {
             this->linkedList->clear_all();
         }
-        catch(NoStoredValuesException& ex)
+        catch(std::out_of_range& ex)
         {
             std::cout << "\nError: " << ex.what() << "\n";
         }

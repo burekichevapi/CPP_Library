@@ -9,12 +9,6 @@
 ../include/ILinkedList.h
 Node.h
 ../include/Node.h
-NoStoredValuesException.h
-../include/NoStoredValuesException.h
-
-../include/NoStoredValuesException.h
-exception
--
 
 ../include/Node.h
 

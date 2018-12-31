@@ -3,7 +3,6 @@
 
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o
  ../include/ILinkedList.h
- ../include/NoStoredValuesException.h
  ../include/Node.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h
@@ -95,7 +94,6 @@ CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o
  /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o
  ../include/ILinkedList.h
- ../include/NoStoredValuesException.h
  ../include/Node.h
  /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
 CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o
@@ -103,7 +101,6 @@ CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o
  /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/FileManager.cpp
 CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o
  ../include/ILinkedList.h
- ../include/NoStoredValuesException.h
  ../include/Node.h
  /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o
@@ -112,13 +109,11 @@ CMakeFiles/Amer_Delic.dir/src/Node.cpp.o
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o
  ../include/ILinkedList.h
  ../include/IQueue.h
- ../include/NoStoredValuesException.h
  ../include/Node.h
  /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Queue.cpp
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o
  ../include/ILinkedList.h
  ../include/IStack.h
- ../include/NoStoredValuesException.h
  ../include/Node.h
  /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
 CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o

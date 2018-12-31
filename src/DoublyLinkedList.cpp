@@ -43,7 +43,7 @@ public:
     void print_all() override
     {
         if (this->empty())
-            throw this->_noStoredValuesException;
+            throw std::out_of_range("List is Empty.");
 
         Node<T> *temp = this->_head;
 
@@ -121,7 +121,7 @@ public:
     void remove_first() override
     {
         if (this->empty())
-            throw this->_noStoredValuesException;
+            throw std::out_of_range("List is Empty.");
 
         this->_head = this->_head->get_next_node();
         this->number_of_nodes--;
@@ -136,7 +136,7 @@ public:
     void remove_last() override
     {
         if (this->empty())
-            throw this->_noStoredValuesException;
+            throw std::out_of_range("List is Empty.");
 
         if(this->is_null(this->_head->get_next_node()))
         {
@@ -169,7 +169,7 @@ public:
     void remove_by_value(T value) override
     {
         if (this->empty())
-            throw this->_noStoredValuesException;
+            throw std::out_of_range("List is Empty.");
 
         if (this->_head->get_value() == value)
         {
@@ -204,7 +204,7 @@ public:
     T get_head_value() override
     {
         if (this->empty())
-            throw this->_noStoredValuesException;
+            throw std::out_of_range("List is Empty.");
 
         return this->_head->get_value();
     }
@@ -212,7 +212,7 @@ public:
     T get_tail_value() override
     {
         if (this->empty())
-            throw this->_noStoredValuesException;
+            throw std::out_of_range("List is Empty.");
 
         return this->_tail->get_value();
     }

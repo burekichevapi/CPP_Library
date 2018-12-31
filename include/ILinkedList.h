@@ -2,7 +2,7 @@
 #define AMER_DELIC_ILINKEDLIST_H
 
 #include "Node.h"
-#include "NoStoredValuesException.h"
+
 
 template <class T> class ILinkedList
 {
@@ -12,7 +12,6 @@ protected:
             *_previous = nullptr;
 
     unsigned int number_of_nodes;
-    NoStoredValuesException _noStoredValuesException;
 
     bool is_null(Node<T> *temp)
     { return temp == nullptr; }
@@ -21,7 +20,7 @@ protected:
     { return temp->get_next_node() == nullptr; }
 
     bool empty()
-    { return this->number_of_nodes == 0; }
+    { return number_of_nodes == 0; }
 
 public:
     virtual unsigned int get_number_of_nodes() = 0;
