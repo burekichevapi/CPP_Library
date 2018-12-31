@@ -221,6 +221,33 @@ gtest/fast:
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+Tests/DoublyLinkedList_Tests.o: Tests/DoublyLinkedList_Tests.cpp.o
+
+.PHONY : Tests/DoublyLinkedList_Tests.o
+
+# target to build an object file
+Tests/DoublyLinkedList_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o
+.PHONY : Tests/DoublyLinkedList_Tests.cpp.o
+
+Tests/DoublyLinkedList_Tests.i: Tests/DoublyLinkedList_Tests.cpp.i
+
+.PHONY : Tests/DoublyLinkedList_Tests.i
+
+# target to preprocess a source file
+Tests/DoublyLinkedList_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.i
+.PHONY : Tests/DoublyLinkedList_Tests.cpp.i
+
+Tests/DoublyLinkedList_Tests.s: Tests/DoublyLinkedList_Tests.cpp.s
+
+.PHONY : Tests/DoublyLinkedList_Tests.s
+
+# target to generate assembly for a file
+Tests/DoublyLinkedList_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.s
+.PHONY : Tests/DoublyLinkedList_Tests.cpp.s
+
 Tests/LinkedList_Tests.o: Tests/LinkedList_Tests.cpp.o
 
 .PHONY : Tests/LinkedList_Tests.o
@@ -508,6 +535,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... Tests/DoublyLinkedList_Tests.o"
+	@echo "... Tests/DoublyLinkedList_Tests.i"
+	@echo "... Tests/DoublyLinkedList_Tests.s"
 	@echo "... Tests/LinkedList_Tests.o"
 	@echo "... Tests/LinkedList_Tests.i"
 	@echo "... Tests/LinkedList_Tests.s"

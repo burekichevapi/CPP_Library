@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o"
   "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o"
   "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/main.cpp" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/main.cpp.o"
   "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o"
