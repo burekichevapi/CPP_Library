@@ -1,3 +1,4 @@
+#include <iostream>
 #include "IStack.h"
 
 template <class T>
@@ -14,15 +15,46 @@ public:
     { return get_depth() == 0; }
 
     void print_all() override
-    { this->_linkedList->print_all(); }
+    {
+        try {
+            this->_linkedList->print_all();
+        }
+        catch(std::exception& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+        }
+    }
 
     void push(Node<T> *node) override
     { this->_linkedList->add_first(node); }
 
+    void push(T item)
+    {
+        Node<T> *newNode = new Node<T>(item);
+        push(newNode);
+    };
+
     void pop() override
-    { this->_linkedList->remove_first(); }
+    {
+        try {
+            this->_linkedList->remove_first();
+        }
+        catch(std::exception& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+        }
+
+    }
 
     void clear() override
-    { this->_linkedList->clear_all(); }
+    {
+        try {
+            this->_linkedList->clear_all();
+        }
+        catch(std::exception& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+        }
+    }
 
 };

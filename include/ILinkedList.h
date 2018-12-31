@@ -12,7 +12,6 @@ protected:
             *_previous = nullptr;
 
     unsigned int number_of_nodes;
-
     NoStoredValuesException _noStoredValuesException;
 
     bool is_null(Node<T> *temp)

@@ -2,6 +2,7 @@
 // Created by amer on 12/30/18.
 //
 
+#include <iostream>
 #include "IQueue.h"
 #include "ILinkedList.h"
 
@@ -16,12 +17,44 @@ public:
     { this->linkedList->add_first(item); }
 
     void dequeue() override
-    {this->linkedList->remove_first();}
+    {
+
+        try {
+            this->linkedList->remove_first();
+        }
+        catch(NoStoredValuesException& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+        }
+    }
 
     T get_next_item() override
-    { return this->linkedList->get_head_value(); }
+    {
+
+        try {
+            auto next = this->linkedList->get_head_value();
+
+            return next;
+        }
+        catch(NoStoredValuesException& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+            return 0;
+        }
+
+
+    }
 
     void clear() override
-    { this->linkedList->clear_all(); }
+    {
+
+        try {
+            this->linkedList->clear_all();
+        }
+        catch(NoStoredValuesException& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+        }
+    }
 
 };

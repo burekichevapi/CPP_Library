@@ -5,19 +5,18 @@
 template <class T>
 class LinkedList : public ILinkedList<T>
 {
-private:
-    bool is_null(Node<T> *temp) override
-    { return temp == nullptr; }
-
-    bool next_is_null(Node<T> *temp) override
-    { return temp->get_next_node() == nullptr; }
-
-    bool empty()
-    { return this->number_of_nodes == 0; }
 
 public:
     LinkedList(Node<T> *head)
     {
+        this->_head = head;
+        this->_tail = head;
+        this->number_of_nodes = 1;
+    }
+
+    LinkedList(T item)
+    {
+        auto *head = new Node<T>(item);
         this->_head = head;
         this->_tail = head;
         this->number_of_nodes = 1;
@@ -28,17 +27,14 @@ public:
 
     void print_all() override
     {
-        if (empty())
-        {
-            std::cout << "List is empty..\n";
-            return;
-        }
+        if (this->empty())
+            throw this->_noStoredValuesException;
 
         Node<T> *temp = this->_head;
 
         while (true)
         {
-            if (next_is_null(temp))
+            if (this->next_is_null(temp))
             {
                 std::cout << temp->get_value() << std::endl;
                 break;
@@ -51,7 +47,7 @@ public:
 
     void clear_all() override
     {
-        while(!is_null(this->_head))
+        while(!this->is_null(this->_head))
         {
             Node<T> *temp = this->_head;
             this->_head = this->_head->get_next_node();
@@ -81,7 +77,7 @@ public:
 
     void add_last(Node<T> *newNode) override
     {
-        if(empty())
+        if(this->empty())
         {
             add_first(newNode);
             return;
@@ -105,8 +101,8 @@ public:
 
     void remove_first() override
     {
-        if(empty())
-            return;
+        if (this->empty())
+            throw this->_noStoredValuesException;
 
         this->_head = this->_head->get_next_node();
         this->number_of_nodes--;
@@ -114,8 +110,8 @@ public:
 
     void remove_last() override
     {
-        if(empty())
-            return;
+        if (this->empty())
+            throw this->_noStoredValuesException;
 
         Node<T> *temp = this->_head;
 
@@ -131,12 +127,12 @@ public:
 
     bool contains(T value) override
     {
-        if(empty())
+        if(this->empty())
             return false;
 
         Node<T> *temp = this->_head;
 
-        while(!is_null(temp))
+        while(!this->is_null(temp))
         {
             if(temp->get_value() == value)
                 return true;
@@ -149,8 +145,8 @@ public:
 
     void remove_by_value(T value) override
     {
-        if(empty())
-            return;
+        if (this->empty())
+            throw this->_noStoredValuesException;
 
         if(this->_head->get_value() == value)
         {
@@ -167,7 +163,7 @@ public:
         Node<T> *previous = this->_head;
         Node<T> *current = this->_head->get_next_node();
 
-        while(!next_is_null(current))
+        while(!this->next_is_null(current))
         {
             if(current->get_value() == value)
             {
@@ -183,11 +179,19 @@ public:
         }
     }
 
-    T get_head_value(){
+    T get_head_value()
+    {
+        if (this->empty())
+            throw this->_noStoredValuesException;
+
         return this->_head->get_value();
     }
 
-    T get_tail_value(){
+    T get_tail_value()
+    {
+        if (this->empty())
+            throw this->_noStoredValuesException;
+
         return this->_tail->get_value();
     }
 };
