@@ -2,7 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="Amer_Delic" targetName="gtest" />
+      <config projectName="Amer_Delic" targetName="gmock" />
       <config projectName="Amer_Delic" targetName="Amer_Delic" />
+      <config projectName="Amer_Delic" targetName="gtest_main" />
+      <config projectName="Amer_Delic" targetName="gmock_main" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,9 +16,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6de8a6b2-e86f-4b37-ac31-69c163783047" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/LinkedList_Tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Amer_Delic.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Amer_Delic.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Node.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libAmer_Delic.so" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libAmer_Delic.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,38 +60,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.cpp">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#73#82#0" expanded="true" />
+                <element signature="e#39#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/LinkedList_Tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2940">
-              <caret line="196" column="2" selection-start-line="196" selection-start-column="2" selection-end-line="196" selection-end-column="2" />
+            <state relative-caret-position="510">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Queue.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#39#58#0" expanded="true" />
-                <element signature="e#94#103#0" expanded="true" />
+                <element signature="e#39#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,19 +86,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Stack.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+            <state relative-caret-position="210">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#139#267#0" />
+                <element signature="e#527#975#0" />
+                <element signature="e#981#1267#0" />
+                <element signature="e#1273#1517#0" />
+                <element signature="e#1523#1637#0" />
+                <element signature="e#1643#1995#0" />
+                <element signature="e#2001#2113#0" />
+                <element signature="e#2119#2322#0" />
+                <element signature="e#2328#2679#0" />
+                <element signature="e#2685#3013#0" />
+                <element signature="e#3019#3893#0" />
+                <element signature="e#3899#4048#0" />
+                <element signature="e#4054#4203#0" />
               </folding>
             </state>
           </provider>
@@ -115,22 +147,24 @@
         <option value="$PROJECT_DIR$/src/ArrayStack.cpp" />
         <option value="$PROJECT_DIR$/include/amer_delic_library.h" />
         <option value="$PROJECT_DIR$/include/IQueue.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/NoStoredValuesException.cpp" />
         <option value="$PROJECT_DIR$/include/NoStoredValuesException.h" />
         <option value="$PROJECT_DIR$/include/ILinkedList.h" />
         <option value="$PROJECT_DIR$/include/IStack.h" />
-        <option value="$PROJECT_DIR$/src/DoublyLinkedList.cpp" />
         <option value="$PROJECT_DIR$/src/LinkedList.cpp" />
         <option value="$PROJECT_DIR$/src/Queue.cpp" />
         <option value="$PROJECT_DIR$/src/Stack.cpp" />
+        <option value="$PROJECT_DIR$/src/DoublyLinkedList.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Tests/LinkedList_Tests.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="318" />
-    <option name="y" value="92" />
-    <option name="width" value="1376" />
+    <option name="x" value="1813" />
+    <option name="y" value="32" />
+    <option name="width" value="1969" />
     <option name="height" value="1959" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -151,12 +185,7 @@
             <path>
               <item name="Amer_Delic" type="b2602c69:ProjectViewProjectNode" />
               <item name="Amer_Delic" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Amer_Delic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Amer_Delic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,12 +220,96 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Google Test.LinkedList_Tests.Assert_Can_Add_Last">
+    <configuration name="LinkedList_Tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="LinkedList_Tests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList_Tests.Assert_Can_Add_Last" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="LinkedList_Tests" TEST_METHOD="Assert_Can_Add_Last" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList_Tests.Assert_Is_Initialized_With_One_Value" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="LinkedList_Tests" TEST_METHOD="Assert_Is_Initialized_With_One_Value" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Amer_Delic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Amer_Delic" />
+      <item itemvalue="Application.gmock" />
+      <item itemvalue="Application.gmock_main" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+      <item itemvalue="Google Test.LinkedList_Tests.Assert_Is_Initialized_With_One_Value" />
+      <item itemvalue="Google Test.LinkedList_Tests" />
+      <item itemvalue="Google Test.LinkedList_Tests.Assert_Can_Add_Last" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.LinkedList_Tests.Assert_Can_Add_Last" />
+        <item itemvalue="Google Test.LinkedList_Tests" />
+        <item itemvalue="Google Test.LinkedList_Tests.Assert_Is_Initialized_With_One_Value" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LinkedList_Tests_Assert_Is_Initialized_With_One_Value - 2018.12.31 at 12h 39m 22s.xml">
+      <configuration name="LinkedList_Tests.Assert_Is_Initialized_With_One_Value" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LinkedList_Tests_Assert_Is_Initialized_With_One_Value - 2018.12.31 at 12h 39m 38s.xml">
+      <configuration name="LinkedList_Tests.Assert_Is_Initialized_With_One_Value" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LinkedList_Tests_Assert_Is_Initialized_With_One_Value - 2018.12.31 at 12h 39m 50s.xml">
+      <configuration name="LinkedList_Tests.Assert_Is_Initialized_With_One_Value" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LinkedList_Tests_Assert_Is_Initialized_With_One_Value - 2018.12.31 at 12h 42m 50s.xml">
+      <configuration name="LinkedList_Tests.Assert_Is_Initialized_With_One_Value" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LinkedList_Tests - 2018.12.31 at 12h 43m 00s.xml">
+      <configuration name="LinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LinkedList_Tests - 2018.12.31 at 12h 44m 23s.xml">
+      <configuration name="LinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LinkedList_Tests - 2018.12.31 at 12h 45m 04s.xml">
+      <configuration name="LinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LinkedList_Tests_Assert_Can_Add_Last - 2018.12.31 at 12h 46m 41s.xml">
+      <configuration name="LinkedList_Tests.Assert_Can_Add_Last" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="LinkedList_Tests_Assert_Can_Add_Last - 2018.12.31 at 12h 46m 48s.xml">
+      <configuration name="LinkedList_Tests.Assert_Can_Add_Last" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,20 +321,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="318" y="92" width="1376" height="1959" extended-state="0" />
+    <frame x="1813" y="32" width="1969" height="1959" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22030075" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1523661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294956" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49849623" visible="true" weight="0.2713816" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49849623" weight="0.2713816" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294956" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50150377" side_tool="true" weight="0.2713816" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49849623" weight="0.32730263" />
@@ -421,27 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="196" column="2" selection-start-line="196" selection-start-column="2" selection-end-line="196" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Queue.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -453,19 +546,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/src/Stack.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack.cpp">
+    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+        <state relative-caret-position="405">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#73#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1097">
+          <caret line="2455" selection-start-line="2455" selection-end-line="2455" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/googletest-master/googlemock/make/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1212">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#139#267#0" />
+            <element signature="e#527#975#0" />
+            <element signature="e#981#1267#0" />
+            <element signature="e#1273#1517#0" />
+            <element signature="e#1523#1637#0" />
+            <element signature="e#1643#1995#0" />
+            <element signature="e#2001#2113#0" />
+            <element signature="e#2119#2322#0" />
+            <element signature="e#2328#2679#0" />
+            <element signature="e#2685#3013#0" />
+            <element signature="e#3019#3893#0" />
+            <element signature="e#3899#4048#0" />
+            <element signature="e#4054#4203#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/LinkedList_Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

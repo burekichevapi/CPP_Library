@@ -1,14 +1,22 @@
 cmake_minimum_required(VERSION 3.13)
 project(Amer_Delic)
-set(CMAKE_BUILD_TYPE Release)
 
 set(CMAKE_CXX_STANDARD 11)
 
+add_subdirectory(lib/googletest-master)
+include_directories(lib/googletest-master/googletest/include)
+include_directories(lib/googletest-master/googlemock/include)
 include_directories(include)
 
 file(GLOB SOURCE_FILES
-        "src/*.cpp")
+        "src/*.cpp"
+        main.cpp)
 
-add_library(Amer_Delic SHARED ${SOURCE_FILES} include/NoStoredValuesException.h)
+set(TEST_FILES
+        Tests/LinkedList_Tests.cpp)
 
-install(TARGETS Amer_Delic DESTINATION /usr/lib)
+add_executable(Amer_Delic ${SOURCE_FILES} ${TEST_FILES})
+
+target_link_libraries(Amer_Delic gtest gtest_main)
+
+#install(TARGETS Amer_Delic DESTINATION /usr/lib)

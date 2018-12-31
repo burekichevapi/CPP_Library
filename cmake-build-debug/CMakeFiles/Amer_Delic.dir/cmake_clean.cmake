@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Amer_Delic.dir/main.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o"
@@ -7,8 +8,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o"
-  "libAmer_Delic.pdb"
-  "libAmer_Delic.so"
+  "CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o"
+  "Amer_Delic.pdb"
+  "Amer_Delic"
 )
 
 # Per-language clean rules from dependency scanning.

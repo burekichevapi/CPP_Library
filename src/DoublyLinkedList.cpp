@@ -22,6 +22,21 @@ public:
         this->number_of_nodes = 2;
     }
 
+    DoublyLinkedList<T>(T head, T tail)
+    {
+        this->_head = new Node<T>(head);
+        this->_tail = new Node<T>(tail);
+
+        this->_head->set_previous_node(this->_previous);
+        this->_head->set_next_node(this->_tail);
+
+        this->_tail->set_previous_node(this->_head);
+        this->_tail->set_next_node(nullptr);
+
+        this->_previous = nullptr;
+        this->number_of_nodes = 2;
+    }
+
     unsigned int get_number_of_nodes() override
     { return this->number_of_nodes; }
 

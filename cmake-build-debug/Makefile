@@ -169,6 +169,112 @@ Amer_Delic/fast:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/build
 .PHONY : Amer_Delic/fast
 
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+Tests/LinkedList_Tests.o: Tests/LinkedList_Tests.cpp.o
+
+.PHONY : Tests/LinkedList_Tests.o
+
+# target to build an object file
+Tests/LinkedList_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o
+.PHONY : Tests/LinkedList_Tests.cpp.o
+
+Tests/LinkedList_Tests.i: Tests/LinkedList_Tests.cpp.i
+
+.PHONY : Tests/LinkedList_Tests.i
+
+# target to preprocess a source file
+Tests/LinkedList_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.i
+.PHONY : Tests/LinkedList_Tests.cpp.i
+
+Tests/LinkedList_Tests.s: Tests/LinkedList_Tests.cpp.s
+
+.PHONY : Tests/LinkedList_Tests.s
+
+# target to generate assembly for a file
+Tests/LinkedList_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.s
+.PHONY : Tests/LinkedList_Tests.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 src/ArrayStack.o: src/ArrayStack.cpp.o
 
 .PHONY : src/ArrayStack.o
@@ -398,6 +504,16 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... gmock_main"
+	@echo "... gmock"
+	@echo "... gtest_main"
+	@echo "... gtest"
+	@echo "... Tests/LinkedList_Tests.o"
+	@echo "... Tests/LinkedList_Tests.i"
+	@echo "... Tests/LinkedList_Tests.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... src/ArrayStack.o"
 	@echo "... src/ArrayStack.i"
 	@echo "... src/ArrayStack.s"
