@@ -57,4 +57,15 @@ public:
         }
     }
 
+    T peek() override
+    {
+        try{
+            return this->_linkedList->get_head_value();
+        }
+        catch(std::out_of_range& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+        }
+    }
+
 };

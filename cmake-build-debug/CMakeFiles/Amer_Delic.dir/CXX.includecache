@@ -10,6 +10,10 @@
 Node.h
 ../include/Node.h
 
+../include/IStack.h
+ILinkedList.h
+../include/ILinkedList.h
+
 ../include/Node.h
 
 ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
@@ -520,19 +524,19 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/Stack_Tests.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
 -
-ILinkedList.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ILinkedList.h
-../src/DoublyLinkedList.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
-../src/Node.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
+IStack.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/IStack.h
+../src/Stack.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
+../src/LinkedList.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
 
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
 iostream
 -
 ILinkedList.h
@@ -540,7 +544,9 @@ ILinkedList.h
 Node.h
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
 
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
-Node.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
+iostream
+-
+IStack.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/IStack.h
 

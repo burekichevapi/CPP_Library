@@ -221,6 +221,33 @@ gtest/fast:
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+Tests/ArrayStack_Tests.o: Tests/ArrayStack_Tests.cpp.o
+
+.PHONY : Tests/ArrayStack_Tests.o
+
+# target to build an object file
+Tests/ArrayStack_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.o
+.PHONY : Tests/ArrayStack_Tests.cpp.o
+
+Tests/ArrayStack_Tests.i: Tests/ArrayStack_Tests.cpp.i
+
+.PHONY : Tests/ArrayStack_Tests.i
+
+# target to preprocess a source file
+Tests/ArrayStack_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.i
+.PHONY : Tests/ArrayStack_Tests.cpp.i
+
+Tests/ArrayStack_Tests.s: Tests/ArrayStack_Tests.cpp.s
+
+.PHONY : Tests/ArrayStack_Tests.s
+
+# target to generate assembly for a file
+Tests/ArrayStack_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.s
+.PHONY : Tests/ArrayStack_Tests.cpp.s
+
 Tests/DoublyLinkedList_Tests.o: Tests/DoublyLinkedList_Tests.cpp.o
 
 .PHONY : Tests/DoublyLinkedList_Tests.o
@@ -274,6 +301,33 @@ Tests/LinkedList_Tests.s: Tests/LinkedList_Tests.cpp.s
 Tests/LinkedList_Tests.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.s
 .PHONY : Tests/LinkedList_Tests.cpp.s
+
+Tests/Stack_Tests.o: Tests/Stack_Tests.cpp.o
+
+.PHONY : Tests/Stack_Tests.o
+
+# target to build an object file
+Tests/Stack_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o
+.PHONY : Tests/Stack_Tests.cpp.o
+
+Tests/Stack_Tests.i: Tests/Stack_Tests.cpp.i
+
+.PHONY : Tests/Stack_Tests.i
+
+# target to preprocess a source file
+Tests/Stack_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.i
+.PHONY : Tests/Stack_Tests.cpp.i
+
+Tests/Stack_Tests.s: Tests/Stack_Tests.cpp.s
+
+.PHONY : Tests/Stack_Tests.s
+
+# target to generate assembly for a file
+Tests/Stack_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.s
+.PHONY : Tests/Stack_Tests.cpp.s
 
 main.o: main.cpp.o
 
@@ -535,12 +589,18 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... Tests/ArrayStack_Tests.o"
+	@echo "... Tests/ArrayStack_Tests.i"
+	@echo "... Tests/ArrayStack_Tests.s"
 	@echo "... Tests/DoublyLinkedList_Tests.o"
 	@echo "... Tests/DoublyLinkedList_Tests.i"
 	@echo "... Tests/DoublyLinkedList_Tests.s"
 	@echo "... Tests/LinkedList_Tests.o"
 	@echo "... Tests/LinkedList_Tests.i"
 	@echo "... Tests/LinkedList_Tests.s"
+	@echo "... Tests/Stack_Tests.o"
+	@echo "... Tests/Stack_Tests.i"
+	@echo "... Tests/Stack_Tests.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

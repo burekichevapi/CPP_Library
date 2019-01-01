@@ -24,6 +24,8 @@ public:
 
     virtual void clear() = 0;
 
+    virtual T peek() = 0;
+
 };
 
 #endif //AMER_DELIC_ISTACK_H

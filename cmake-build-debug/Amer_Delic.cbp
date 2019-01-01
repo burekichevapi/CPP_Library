@@ -340,10 +340,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ArrayStack_Tests.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
 		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
+		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/Stack_Tests.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/lib/googletest-master/googlemock/src/gmock-all.cc">

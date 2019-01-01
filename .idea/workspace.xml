@@ -16,7 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6de8a6b2-e86f-4b37-ac31-69c163783047" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ArrayStack_Tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Stack_Tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Amer_Delic" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Amer_Delic" afterDir="false" />
@@ -29,6 +30,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -36,7 +39,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/amer_delic_library.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/ArrayStack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/IStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/IStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +53,64 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/IStack.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#92#101#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Tests/ArrayStack_Tests.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="900">
+                  <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#39#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Tests/Stack_Tests.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="495">
+                  <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+                  <folding>
+                    <element signature="e#39#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Stack.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1020">
+                  <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -79,11 +142,9 @@
         <option value="$PROJECT_DIR$/console_management.h" />
         <option value="$PROJECT_DIR$/console_management.cpp" />
         <option value="$PROJECT_DIR$/include/ArrayStack.h" />
-        <option value="$PROJECT_DIR$/src/ArrayStack.cpp" />
         <option value="$PROJECT_DIR$/include/amer_delic_library.h" />
         <option value="$PROJECT_DIR$/include/IQueue.h" />
         <option value="$PROJECT_DIR$/src/NoStoredValuesException.cpp" />
-        <option value="$PROJECT_DIR$/include/IStack.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/NoStoredValuesException.h" />
@@ -91,16 +152,19 @@
         <option value="$PROJECT_DIR$/include/ILinkedList.h" />
         <option value="$PROJECT_DIR$/src/Queue.cpp" />
         <option value="$PROJECT_DIR$/src/LinkedList.cpp" />
-        <option value="$PROJECT_DIR$/src/Stack.cpp" />
         <option value="$PROJECT_DIR$/Tests/LinkedList_Tests.cpp" />
         <option value="$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp" />
         <option value="$PROJECT_DIR$/src/DoublyLinkedList.cpp" />
+        <option value="$PROJECT_DIR$/include/IStack.h" />
+        <option value="$PROJECT_DIR$/src/ArrayStack.cpp" />
+        <option value="$PROJECT_DIR$/src/Stack.cpp" />
+        <option value="$PROJECT_DIR$/Tests/ArrayStack_Tests.cpp" />
+        <option value="$PROJECT_DIR$/Tests/Stack_Tests.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1809" />
-    <option name="y" value="28" />
+    <option name="x" value="1871" />
     <option name="width" value="1969" />
     <option name="height" value="1959" />
   </component>
@@ -167,32 +231,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.DoublyLinkedList_Tests">
-    <configuration name="DoublyLinkedList_Tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="DoublyLinkedList_Tests" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Google Test.Stack_Tests">
+    <configuration name="ArrayStack_Tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayStack_Tests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList_Tests.Assert_Can_Remove_Last" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="DoublyLinkedList_Tests" TEST_METHOD="Assert_Can_Remove_Last" TEST_MODE="SUITE_TEST">
+    <configuration name="ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayStack_Tests" TEST_METHOD="Assert_Can_Push_Value_Top_Of_Stack" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList_Tests.Assert_That_Does_Not_Contain_Number_3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="DoublyLinkedList_Tests" TEST_METHOD="Assert_That_Does_Not_Contain_Number_3" TEST_MODE="SUITE_TEST">
+    <configuration name="ArrayStack_Tests.Assert_Is_Empty_After_Pop" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayStack_Tests" TEST_METHOD="Assert_Is_Empty_After_Pop" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Get_Head_Value" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="DoublyLinkedList_Tests" TEST_METHOD="Assert_Throws_When_Empty_Calling_Get_Head_Value" TEST_MODE="SUITE_TEST">
+    <configuration name="ArrayStack_Tests.Assert_That_Stack_Has_One_Value" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayStack_Tests" TEST_METHOD="Assert_That_Stack_Has_One_Value" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Remove_Last" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="DoublyLinkedList_Tests" TEST_METHOD="Assert_Throws_When_Empty_Calling_Remove_Last" TEST_MODE="SUITE_TEST">
+    <configuration name="Stack_Tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="Stack_Tests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -229,52 +293,52 @@
       <item itemvalue="Application.gmock_main" />
       <item itemvalue="Application.gtest" />
       <item itemvalue="Application.gtest_main" />
-      <item itemvalue="Google Test.DoublyLinkedList_Tests.Assert_Can_Remove_Last" />
-      <item itemvalue="Google Test.DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Remove_Last" />
-      <item itemvalue="Google Test.DoublyLinkedList_Tests.Assert_That_Does_Not_Contain_Number_3" />
-      <item itemvalue="Google Test.DoublyLinkedList_Tests" />
-      <item itemvalue="Google Test.DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Get_Head_Value" />
+      <item itemvalue="Google Test.ArrayStack_Tests.Assert_That_Stack_Has_One_Value" />
+      <item itemvalue="Google Test.ArrayStack_Tests" />
+      <item itemvalue="Google Test.ArrayStack_Tests.Assert_Is_Empty_After_Pop" />
+      <item itemvalue="Google Test.ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" />
+      <item itemvalue="Google Test.Stack_Tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.DoublyLinkedList_Tests" />
-        <item itemvalue="Google Test.DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Get_Head_Value" />
-        <item itemvalue="Google Test.DoublyLinkedList_Tests.Assert_That_Does_Not_Contain_Number_3" />
-        <item itemvalue="Google Test.DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Remove_Last" />
-        <item itemvalue="Google Test.DoublyLinkedList_Tests.Assert_Can_Remove_Last" />
+        <item itemvalue="Google Test.Stack_Tests" />
+        <item itemvalue="Google Test.ArrayStack_Tests" />
+        <item itemvalue="Google Test.ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" />
+        <item itemvalue="Google Test.ArrayStack_Tests.Assert_Is_Empty_After_Pop" />
+        <item itemvalue="Google Test.ArrayStack_Tests.Assert_That_Stack_Has_One_Value" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="DoublyLinkedList_Tests_Assert_Throws_When_Empty_Calling_Print_All - 2018.12.31 at 15h 47m 15s.xml">
-      <configuration name="DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Print_All" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="ArrayStack_Tests_Assert_Can_Push_Value_Top_Of_Stack - 2018.12.31 at 19h 33m 45s.xml">
+      <configuration name="ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests_Assert_Throws_When_Empty_Calling_Remove_First - 2018.12.31 at 15h 48m 52s.xml">
-      <configuration name="DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Remove_First" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="ArrayStack_Tests_Assert_Can_Push_Value_Top_Of_Stack - 2018.12.31 at 19h 35m 45s.xml">
+      <configuration name="ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests_Assert_Can_Remove_Last - 2018.12.31 at 15h 49m 29s.xml">
-      <configuration name="DoublyLinkedList_Tests.Assert_Can_Remove_Last" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="ArrayStack_Tests_Assert_Can_Push_Value_Top_Of_Stack - 2018.12.31 at 19h 38m 10s.xml">
+      <configuration name="ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests_Assert_Throws_When_Empty_Calling_Remove_Last - 2018.12.31 at 15h 49m 47s.xml">
-      <configuration name="DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Remove_Last" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="ArrayStack_Tests_Assert_Can_Push_Value_Top_Of_Stack - 2018.12.31 at 19h 44m 52s.xml">
+      <configuration name="ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests_Assert_That_Does_Not_Contain_Number_3 - 2018.12.31 at 15h 50m 20s.xml">
-      <configuration name="DoublyLinkedList_Tests.Assert_That_Does_Not_Contain_Number_3" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="ArrayStack_Tests_Assert_Can_Push_Value_Top_Of_Stack - 2018.12.31 at 19h 46m 38s.xml">
+      <configuration name="ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests - 2018.12.31 at 15h 52m 00s.xml">
-      <configuration name="DoublyLinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="ArrayStack_Tests_Assert_Can_Push_Value_Top_Of_Stack - 2018.12.31 at 19h 46m 55s.xml">
+      <configuration name="ArrayStack_Tests.Assert_Can_Push_Value_Top_Of_Stack" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests_Assert_Throws_When_Empty_Calling_Get_Head_Value - 2018.12.31 at 15h 52m 22s.xml">
-      <configuration name="DoublyLinkedList_Tests.Assert_Throws_When_Empty_Calling_Get_Head_Value" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="ArrayStack_Tests - 2018.12.31 at 19h 49m 18s.xml">
+      <configuration name="ArrayStack_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests - 2018.12.31 at 15h 55m 30s.xml">
-      <configuration name="DoublyLinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="ArrayStack_Tests - 2018.12.31 at 19h 49m 36s.xml">
+      <configuration name="ArrayStack_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests - 2018.12.31 at 15h 56m 04s.xml">
-      <configuration name="DoublyLinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Stack_Tests - 2018.12.31 at 19h 50m 06s.xml">
+      <configuration name="Stack_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="DoublyLinkedList_Tests - 2018.12.31 at 15h 56m 47s.xml">
-      <configuration name="DoublyLinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="Stack_Tests - 2018.12.31 at 19h 50m 42s.xml">
+      <configuration name="Stack_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -287,20 +351,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1809" y="28" width="1969" height="1959" extended-state="0" />
+    <frame x="1871" y="0" width="1969" height="1959" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1523661" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15392616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294956" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19736843" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19736843" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31688598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294956" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49849623" weight="0.27083334" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49849623" visible="true" weight="0.27083334" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294956" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50150377" side_tool="true" weight="0.2713816" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49849623" weight="0.32730263" />
@@ -382,17 +446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/OutOfRangeException.h" />
-    <entry file="file://$PROJECT_DIR$/src/NoStoredValuesException.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#39#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NoStoredValuesException.cpp" />
     <entry file="file://$PROJECT_DIR$/include/IQueue.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -403,43 +457,6 @@
           <folding>
             <element signature="e#63#72#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/IStack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#92#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayStack.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#55#64#0" expanded="true" />
-            <element signature="e#133#142#0" expanded="true" />
-            <element signature="e#124#290#0" />
-            <element signature="e#292#645#0" />
-            <element signature="e#647#998#0" />
-            <element signature="e#1000#1136#0" />
-            <element signature="e#1147#1156#0" expanded="true" />
-            <element signature="e#1138#1215#0" />
-            <element signature="e#1226#1235#0" expanded="true" />
-            <element signature="e#1217#1308#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/ArrayStack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -504,27 +521,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/OutOfRangeException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/include/OutOfRangeException.h" />
     <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/src/gtest.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="2446" selection-start-line="2446" selection-end-line="2446" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,46 +559,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/amer_delic_library.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#59#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/include/amer_delic_library.h" />
     <entry file="file://$PROJECT_DIR$/include/ILinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#39#63#0" expanded="true" />
-            <element signature="e#581#643#0" />
-            <element signature="e#719#824#0" />
-            <element signature="e#888#1051#0" />
-            <element signature="e#1105#1196#0" />
-            <element signature="e#1243#1333#0" />
-            <element signature="e#1384#1510#0" />
-            <element signature="e#1583#1691#0" />
-            <element signature="e#1741#1865#0" />
-            <element signature="e#1937#2042#0" />
-            <element signature="e#2099#2154#0" />
-            <element signature="e#2219#2275#0" />
-            <element signature="e#2338#2499#0" />
-            <element signature="e#2561#2618#0" />
-            <element signature="e#2680#2769#0" />
-            <element signature="e#2844#2957#0" />
-            <element signature="e#3032#3141#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,6 +599,77 @@
           <folding>
             <element signature="e#39#63#0" expanded="true" />
             <element signature="e#553#615#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ArrayStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayStack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="83" column="2" lean-forward="true" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
+          <folding>
+            <element signature="e#2#21#0" expanded="true" />
+            <element signature="e#240#376#0" />
+            <element signature="e#406#773#0" />
+            <element signature="e#779#1100#0" />
+            <element signature="e#1158#1264#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/IStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#92#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/ArrayStack_Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Stack_Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,83 +1,84 @@
-#include "ArrayStack.h"
 
 #include <iostream>
+#include <IStack.h>
+
 
 template <class T>
-bool ArrayStack<T>::is_empty()
-{ return _capacity == 0; }
+class ArrayStack : public IStack<T>{
+private:
+    unsigned int _capacity;
+    T *_items = new T[0];
 
-template <class T>
-void ArrayStack<T>::print_all()
-{
-    unsigned int i = 0;
+public:
 
-    while (i < _capacity) {
-        std::cout << _items[i] << "\n";
-        i++;
-    }
-}
+    unsigned int get_depth() override
+    { return _capacity; }
 
-template <class T>
-void ArrayStack<T>::push(T item)
-{
-    unsigned int newCapacity = ++_capacity;
+    bool is_empty() override
+    { return _capacity == 0; }
 
-    T *newArray = new T[newCapacity];
+    void print_all() override
+    {
+        unsigned int i = 0;
 
-    newArray[0] = item;
-
-    while (newCapacity >= 1) {
-        newArray[newCapacity] = _items[newCapacity - 1];
-        newCapacity--;
+        while (i < _capacity) {
+            std::cout << _items[i] << "\n";
+            i++;
+        }
     }
 
-    _items = newArray;
+    void push(T item) override
+    {
+        unsigned int newCapacity = ++_capacity;
 
-    newArray = nullptr;
-    delete (newArray);
-}
+        T *newArray = new T[newCapacity];
 
-template <class T>
-void ArrayStack<T>::pop()
-{
-    if (is_empty())
-        return;
+        newArray[0] = item;
 
-    unsigned int newCapacity = --_capacity;
+        while (newCapacity >= 1) {
+            newArray[newCapacity] = _items[newCapacity - 1];
+            newCapacity--;
+        }
 
-    T *newArray = new T[newCapacity];
-    unsigned int i = 0;
+        _items = newArray;
 
-    while (i < newCapacity) {
-        newArray[i] = _items[i + 1];
-        i++;
+        newArray = nullptr;
+        delete (newArray);
     }
 
-    _items = newArray;
+    void push(Node<T> *node) override
+    { push(node->get_value()); }
 
-    newArray = nullptr;
-    delete (newArray);
-}
+    void pop() override
+    {
+        if (is_empty())
+            return;
 
-template <class T>
-void ArrayStack<T>::clear()
-{
-    _capacity = 0;
-    _items = nullptr;
-    delete (_items);
+        unsigned int newCapacity = --_capacity;
 
-    _items = new T[0];
-}
+        T *newArray = new T[newCapacity];
+        unsigned int i = 0;
 
-template <class T>
-T ArrayStack<T>::get_top_value()
-{
-    return _items[0];
-}
+        while (i < newCapacity) {
+            newArray[i] = _items[i + 1];
+            i++;
+        }
 
-template <class T>
-T ArrayStack<T>::get_bottom_value()
-{
-    return _items[_capacity-1];
+        _items = newArray;
 
-}
+        newArray = nullptr;
+        delete (newArray);
+    }
+
+    void clear() override
+    {
+        _capacity = 0;
+        _items = nullptr;
+        delete (_items);
+
+        _items = new T[0];
+    }
+
+    T peek() override
+    { return _items[0]; }
+};
