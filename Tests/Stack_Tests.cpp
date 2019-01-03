@@ -19,6 +19,7 @@ protected:
 
 public:
     IStack<long long int> *stackNum = nullptr;
+
     virtual void SetUp()
     {
         auto *ll = new LinkedList<long long int>(1);

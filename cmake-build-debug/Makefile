@@ -356,6 +356,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/ArrayLinkedList.o: src/ArrayLinkedList.cpp.o
+
+.PHONY : src/ArrayLinkedList.o
+
+# target to build an object file
+src/ArrayLinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o
+.PHONY : src/ArrayLinkedList.cpp.o
+
+src/ArrayLinkedList.i: src/ArrayLinkedList.cpp.i
+
+.PHONY : src/ArrayLinkedList.i
+
+# target to preprocess a source file
+src/ArrayLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.i
+.PHONY : src/ArrayLinkedList.cpp.i
+
+src/ArrayLinkedList.s: src/ArrayLinkedList.cpp.s
+
+.PHONY : src/ArrayLinkedList.s
+
+# target to generate assembly for a file
+src/ArrayLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.s
+.PHONY : src/ArrayLinkedList.cpp.s
+
 src/ArrayStack.o: src/ArrayStack.cpp.o
 
 .PHONY : src/ArrayStack.o
@@ -604,6 +631,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/ArrayLinkedList.o"
+	@echo "... src/ArrayLinkedList.i"
+	@echo "... src/ArrayLinkedList.s"
 	@echo "... src/ArrayStack.o"
 	@echo "... src/ArrayStack.i"
 	@echo "... src/ArrayStack.s"

@@ -228,6 +228,10 @@ CMakeFiles/Amer_Delic.dir/main.cpp.o: ../lib/googletest-master/googletest/includ
 CMakeFiles/Amer_Delic.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/Amer_Delic.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o: ../include/ILinkedList.h
+CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o: ../include/Node.h
+CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o: ../src/ArrayLinkedList.cpp
+
 CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o: ../include/ILinkedList.h
 CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o: ../include/IStack.h
 CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o: ../include/Node.h

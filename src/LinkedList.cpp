@@ -11,7 +11,7 @@ public:
     {
         this->_head = head;
         this->_tail = head;
-        this->number_of_nodes = 1;
+        this->_size = 1;
     }
 
     LinkedList(T item)
@@ -19,11 +19,11 @@ public:
         auto *head = new Node<T>(item);
         this->_head = head;
         this->_tail = head;
-        this->number_of_nodes = 1;
+        this->_size = 1;
     }
 
     unsigned int get_number_of_nodes() override
-    { return this->number_of_nodes; }
+    { return this->_size; }
 
     void print_all() override
     {
@@ -54,7 +54,7 @@ public:
             temp = nullptr;
             delete(temp);
         }
-        this->number_of_nodes = 0;
+        this->_size = 0;
     }
 
     void add_first(Node<T> *newNode) override
@@ -66,7 +66,7 @@ public:
         temp = nullptr;
         delete(temp);
 
-        this->number_of_nodes++;
+        this->_size++;
     }
 
     void add_first(T item) override
@@ -90,7 +90,7 @@ public:
         temp = nullptr;
         delete(temp);
 
-        this->number_of_nodes++;
+        this->_size++;
     }
 
     void add_last(T item) override
@@ -105,7 +105,7 @@ public:
             throw std::out_of_range("List is Empty.");
 
         this->_head = this->_head->get_next_node();
-        this->number_of_nodes--;
+        this->_size--;
     }
 
     void remove_last() override
@@ -122,7 +122,7 @@ public:
 
         this->_tail = temp;
 
-        this->number_of_nodes--;
+        this->_size--;
     }
 
     bool contains(T value) override
@@ -170,7 +170,7 @@ public:
                 previous->set_next_node(current->get_next_node());
                 current = nullptr;
                 delete(current);
-                this->number_of_nodes--;
+                this->_size--;
                 break;
             }
 

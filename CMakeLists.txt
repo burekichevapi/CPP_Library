@@ -10,6 +10,7 @@ include_directories(include)
 
 file(GLOB SOURCE_FILES
         "src/*.cpp"
+        ArrayLinkedList.cpp
         main.cpp)
 
 set(TEST_FILES

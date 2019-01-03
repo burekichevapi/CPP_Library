@@ -19,7 +19,7 @@ public:
         this->_tail->set_next_node(nullptr);
 
         this->_previous = nullptr;
-        this->number_of_nodes = 2;
+        this->_size = 2;
     }
 
     DoublyLinkedList<T>(T head, T tail)
@@ -34,11 +34,11 @@ public:
         this->_tail->set_next_node(nullptr);
 
         this->_previous = nullptr;
-        this->number_of_nodes = 2;
+        this->_size = 2;
     }
 
     unsigned int get_number_of_nodes() override
-    { return this->number_of_nodes; }
+    { return this->_size; }
 
     void print_all() override
     {
@@ -70,7 +70,7 @@ public:
             delete (temp);
         }
 
-        this->number_of_nodes = 0;
+        this->_size = 0;
     }
 
     void add_first(Node<T> *newNode) override
@@ -81,13 +81,13 @@ public:
         if(this->is_null(temp)){
             this->_tail = this->_head;
             delete(temp);
-            this->number_of_nodes++;
+            this->_size++;
             return;
         }
 
         this->_head->set_next_node(temp);
         temp->set_previous_node(this->_head);
-        this->number_of_nodes++;
+        this->_size++;
 
     }
 
@@ -109,7 +109,7 @@ public:
         temp = nullptr;
         delete (temp);
 
-        this->number_of_nodes++;
+        this->_size++;
     }
 
     void add_last(T item) override
@@ -124,7 +124,7 @@ public:
             throw std::out_of_range("List is Empty.");
 
         this->_head = this->_head->get_next_node();
-        this->number_of_nodes--;
+        this->_size--;
 
         if(this->is_null(this->_head))
             return;
@@ -141,14 +141,14 @@ public:
         if(this->is_null(this->_head->get_next_node()))
         {
             this->_head = nullptr;
-            this->number_of_nodes--;
+            this->_size--;
             return;
         }
 
         this->_tail = this->_tail->get_previous_node();
         this->_tail->set_next_node(nullptr);
 
-        this->number_of_nodes--;
+        this->_size--;
     }
 
     bool contains(T value) override
@@ -192,7 +192,7 @@ public:
             {
                 previous->set_next_node(current->get_next_node());
                 current->get_next_node()->set_previous_node(previous);
-                this->number_of_nodes--;
+                this->_size--;
                 break;
             }
 

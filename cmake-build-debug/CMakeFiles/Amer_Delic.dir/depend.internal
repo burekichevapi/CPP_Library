@@ -228,6 +228,10 @@ CMakeFiles/Amer_Delic.dir/main.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
  /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/main.cpp
+CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o
+ ../include/ILinkedList.h
+ ../include/Node.h
+ /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
 CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o
  ../include/ILinkedList.h
  ../include/IStack.h

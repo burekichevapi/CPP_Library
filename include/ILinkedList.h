@@ -11,7 +11,9 @@ protected:
             *_tail = nullptr,
             *_previous = nullptr;
 
-    unsigned int number_of_nodes;
+    T *_items;
+
+    unsigned int _size;
 
     bool is_null(Node<T> *temp)
     { return temp == nullptr; }
@@ -20,7 +22,7 @@ protected:
     { return temp->get_next_node() == nullptr; }
 
     bool empty()
-    { return number_of_nodes == 0; }
+    { return _size == 0; }
 
 public:
     virtual unsigned int get_number_of_nodes() = 0;

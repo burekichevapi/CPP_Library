@@ -367,6 +367,9 @@
 		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/main.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
+		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayLinkedList.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
 		<Unit filename="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
