@@ -22,19 +22,19 @@ public:
         this->_size = 1;
     }
 
-    unsigned int get_size() override
+    unsigned int GetSize() override
     { return this->_size; }
 
-    void print_all() override
+    void PrintAll() override
     {
-        if (this->empty())
+        if (this->isEmpty())
             throw std::out_of_range("List is Empty.");
 
         Node<T> *temp = this->_head;
 
         while (true)
         {
-            if (this->next_is_null(temp))
+            if (this->nextIsNull(temp))
             {
                 std::cout << temp->get_value() << std::endl;
                 break;
@@ -45,9 +45,9 @@ public:
         }
     }
 
-    void clear_all() override
+    void Clear() override
     {
-        while(!this->is_null(this->_head))
+        while(!this->isNull(this->_head))
         {
             Node<T> *temp = this->_head;
             this->_head = this->_head->get_next_node();
@@ -57,7 +57,9 @@ public:
         this->_size = 0;
     }
 
-    void add_first(Node<T> *newNode) override
+
+
+    void AddFirst(Node<T> *newNode) override
     {
         Node<T> *temp = this->_head;
         this->_head = newNode;
@@ -69,17 +71,17 @@ public:
         this->_size++;
     }
 
-    void add_first(T item) override
+    void AddFirst(T item) override
     {
         auto *newNode = new Node<T>(item);
-        add_first(newNode);
+        AddFirst(newNode);
     }
 
-    void add_last(Node<T> *newNode) override
+    void AddLast(Node<T> *newNode) override
     {
-        if(this->empty())
+        if(this->isEmpty())
         {
-            add_first(newNode);
+            AddFirst(newNode);
             return;
         }
 
@@ -93,24 +95,24 @@ public:
         this->_size++;
     }
 
-    void add_last(T item) override
+    void AddLast(T item) override
     {
         auto *newNode = new Node<T>(item);
-        add_last(newNode);
+        AddLast(newNode);
     }
 
-    void remove_first() override
+    void RemoveFirst() override
     {
-        if (this->empty())
+        if (this->isEmpty())
             throw std::out_of_range("List is Empty.");
 
         this->_head = this->_head->get_next_node();
         this->_size--;
     }
 
-    void remove_last() override
+    void RemoveLast() override
     {
-        if (this->empty())
+        if (this->isEmpty())
             throw std::out_of_range("List is Empty.");
 
         Node<T> *temp = this->_head;
@@ -125,14 +127,14 @@ public:
         this->_size--;
     }
 
-    bool contains(T value) override
+    bool Contains(T value) override
     {
-        if(this->empty())
+        if(this->isEmpty())
             return false;
 
         Node<T> *temp = this->_head;
 
-        while(!this->is_null(temp))
+        while(!this->isNull(temp))
         {
             if(temp->get_value() == value)
                 return true;
@@ -143,27 +145,27 @@ public:
         return false;
     }
 
-    void remove_by_value(T value) override
+    void RemoveByValue(T value) override
     {
-        if (this->empty())
+        if (this->isEmpty())
             throw std::out_of_range("List is Empty.");
 
         if(this->_head->get_value() == value)
         {
-            remove_first();
+            RemoveFirst();
             return;
         }
 
         if(this->_tail->get_value() == value)
         {
-            remove_last();
+            RemoveLast();
             return;
         }
 
         Node<T> *previous = this->_head;
         Node<T> *current = this->_head->get_next_node();
 
-        while(!this->next_is_null(current))
+        while(!this->nextIsNull(current))
         {
             if(current->get_value() == value)
             {
@@ -179,17 +181,17 @@ public:
         }
     }
 
-    T get_head_value() override
+    T GetHeadValue() override
     {
-        if (this->empty())
+        if (this->isEmpty())
             throw std::out_of_range("List is Empty.");
 
         return this->_head->get_value();
     }
 
-    T get_tail_value() override
+    T GetTailValue() override
     {
-        if (this->empty())
+        if (this->isEmpty())
             throw std::out_of_range("List is Empty.");
 
         return this->_tail->get_value();

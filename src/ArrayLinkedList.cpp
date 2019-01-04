@@ -12,16 +12,16 @@ public:
     ArrayLinkedList()
     { this->_items = new T[0]; }
 
-    unsigned int get_size() override
+    unsigned int GetSize() override
     { return this->_size; }
 
-    void print_all() override
+    void PrintAll() override
     {
         for(int i = 0; i < this->_size; i++)
             std::cout << this->_items[i] << "\n";
     }
 
-    void clear_all() override
+    void Clear() override
     {
         this->_size = 0;
         this->_items = nullptr;
@@ -30,7 +30,7 @@ public:
         this->_items = new T[0];
     }
 
-    void add_first(T item) override
+    void AddFirst(T item) override
     {
         this->_size++;
 
@@ -46,10 +46,10 @@ public:
         delete (newArray);
     }
 
-    void add_first(Node<T> *newNode) override
-    { add_last(newNode->get_value()); }
+    void AddFirst(Node<T> *newNode) override
+    { AddFirst(newNode->get_value()); }
 
-    void add_last(T item) override
+    void AddLast(T item) override
     {
         unsigned int newSize = ++this->_size;
         T *newArray = new T[newSize];
@@ -65,12 +65,12 @@ public:
         delete (newArray);
     }
 
-    void add_last(Node<T> *newNode) override
-    { add_last(newNode->get_value()); }
+    void AddLast(Node<T> *newNode) override
+    { AddLast(newNode->get_value()); }
 
-    void remove_first() override
+    void RemoveFirst() override
     {
-        if (this->empty())
+        if (this->isEmpty())
             return;
 
         this->_size--;
@@ -86,9 +86,9 @@ public:
         delete (newArray);
     }
 
-    void remove_last() override
+    void RemoveLast() override
     {
-        if (this->empty())
+        if (this->isEmpty())
             return;
 
         this->_size--;
@@ -104,9 +104,9 @@ public:
         delete (newArray);
     }
 
-    bool contains(T value) override
+    bool Contains(T value) override
     {
-        if(this->empty())
+        if(this->isEmpty())
             return false;
 
         for(int i = 0; i < this->_size; i++)
@@ -116,7 +116,7 @@ public:
         return false;
     }
 
-    void remove_by_value(T value) override
+    void RemoveByValue(T value) override
     {
         T *newArray = new T[this->_size - 1];
 
@@ -141,17 +141,17 @@ public:
 
     }
 
-    T get_head_value() override
+    T GetHeadValue() override
     {
-        if(this->empty())
+        if(this->isEmpty())
             throw std::out_of_range("List is Empty");
 
         return this->_items[0];
     }
 
-    T get_tail_value() override
+    T GetTailValue() override
     {
-        if(this->empty())
+        if(this->isEmpty())
             throw std::out_of_range("List is Empty");
 
         return this->_items[this->_size-1];

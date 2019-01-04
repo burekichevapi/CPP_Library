@@ -9,7 +9,7 @@ public:
     { this->_linkedList = linkedList; }
 
     unsigned int get_depth() override
-    { return this->_linkedList->get_size(); }
+    { return this->_linkedList->GetSize(); }
 
     bool is_empty() override
     { return get_depth() == 0; }
@@ -17,7 +17,7 @@ public:
     void print_all() override
     {
         try {
-            this->_linkedList->print_all();
+            this->_linkedList->PrintAll();
         }
         catch(std::out_of_range& ex)
         {
@@ -26,7 +26,7 @@ public:
     }
 
     void push(Node<T> *node) override
-    { this->_linkedList->add_first(node); }
+    { this->_linkedList->AddFirst(node); }
 
     void push(T item)
     {
@@ -37,7 +37,7 @@ public:
     void pop() override
     {
         try {
-            this->_linkedList->remove_first();
+            this->_linkedList->RemoveFirst();
         }
         catch(std::out_of_range& ex)
         {
@@ -49,7 +49,7 @@ public:
     void clear() override
     {
         try {
-            this->_linkedList->clear_all();
+            this->_linkedList->Clear();
         }
         catch(std::out_of_range& ex)
         {
@@ -60,7 +60,7 @@ public:
     T peek() override
     {
         try{
-            return this->_linkedList->get_head_value();
+            return this->_linkedList->GetHeadValue();
         }
         catch(std::out_of_range& ex)
         {

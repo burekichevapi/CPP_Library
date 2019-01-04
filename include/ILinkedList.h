@@ -15,41 +15,41 @@ protected:
 
     unsigned int _size = 0;
 
-    bool is_null(Node<T> *temp)
+    bool isNull(Node<T> *temp)
     { return temp == nullptr; }
 
-    bool next_is_null(Node<T> *temp)
+    bool nextIsNull(Node<T> *temp)
     { return temp->get_next_node() == nullptr; }
 
-    bool empty()
+    bool isEmpty()
     { return _size == 0; }
 
 public:
-    virtual unsigned int get_size() = 0;
+    virtual unsigned int GetSize() = 0;
 
-    virtual void print_all() = 0;
+    virtual void PrintAll() = 0;
 
-    virtual void clear_all() = 0;
+    virtual void Clear() = 0;
 
-    virtual void add_first(Node<T> *newNode) = 0;
+    virtual void AddFirst(Node<T> *newNode) = 0;
 
-    virtual void add_last(Node<T> *newNode) = 0;
+    virtual void AddFirst(T item) = 0;
 
-    virtual void add_last(T item) = 0;
+    virtual void AddLast(Node<T> *newNode) = 0;
 
-    virtual void add_first(T item) = 0;
+    virtual void AddLast(T item) = 0;
 
-    virtual void remove_first() = 0;
+    virtual void RemoveFirst() = 0;
 
-    virtual void remove_last() = 0;
+    virtual void RemoveLast() = 0;
 
-    virtual bool contains(T value) = 0;
+    virtual bool Contains(T value) = 0;
 
-    virtual void remove_by_value(T value) = 0;
+    virtual void RemoveByValue(T value) = 0;
 
-    virtual T get_head_value() = 0;
+    virtual T GetHeadValue() = 0;
 
-    virtual T get_tail_value() = 0;
+    virtual T GetTailValue() = 0;
 };
 
 #endif //AMER_DELIC_ILINKEDLIST_H

@@ -60,14 +60,14 @@
     <favorites_list name="Amer_Delic" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44210526">
+    <splitter split-orientation="horizontal" split-proportion="0.6249201">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Tests/ArrayLinkedList_Tests.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="970">
-                  <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+                <state relative-caret-position="945">
+                  <caret line="113" selection-start-line="113" selection-end-line="113" />
                   <folding>
                     <element signature="e#37#61#0" expanded="true" />
                     <element signature="e#612#665#0" />
@@ -92,37 +92,63 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ArrayLinkedList.cpp">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Tests/ArrayStack_Tests.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="607">
-                  <caret line="152" column="4" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
                   <folding>
-                    <element signature="e#37#61#0" expanded="true" />
-                    <element signature="e#283#415#0" />
-                    <element signature="e#421#580#0" />
-                    <element signature="e#586#906#0" />
-                    <element signature="e#999#1339#0" />
-                    <element signature="e#1431#1766#0" />
-                    <element signature="e#1772#2104#0" />
-                    <element signature="e#2110#2344#0" />
-                    <element signature="e#2350#2853#0" />
-                    <element signature="e#2880#2948#0" />
-                    <element signature="e#3038#3118#0" />
+                    <element signature="e#39#63#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1650">
+                  <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#39#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Tests/Stack_Tests.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1170">
+                  <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#39#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Tests/LinkedList_Tests.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#39#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/include/ILinkedList.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                <state relative-caret-position="562">
+                  <caret line="51" column="26" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -167,21 +193,21 @@
         <option value="$PROJECT_DIR$/include/NoStoredValuesException.h" />
         <option value="$PROJECT_DIR$/include/OutOfRangeException.h" />
         <option value="$PROJECT_DIR$/src/Queue.cpp" />
-        <option value="$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp" />
         <option value="$PROJECT_DIR$/src/ArrayStack.cpp" />
         <option value="$PROJECT_DIR$/Tests/ArrayStack_Tests.cpp" />
         <option value="$PROJECT_DIR$/Tests/Stack_Tests.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/DoublyLinkedList.cpp" />
-        <option value="$PROJECT_DIR$/src/LinkedList.cpp" />
         <option value="$PROJECT_DIR$/src/Stack.cpp" />
-        <option value="$PROJECT_DIR$/Tests/LinkedList_Tests.cpp" />
-        <option value="$PROJECT_DIR$/include/ILinkedList.h" />
         <option value="$PROJECT_DIR$/include/IQueue.h" />
         <option value="$PROJECT_DIR$/include/IStack.h" />
         <option value="$PROJECT_DIR$/include/Node.h" />
-        <option value="$PROJECT_DIR$/src/ArrayLinkedList.cpp" />
+        <option value="$PROJECT_DIR$/Tests/LinkedList_Tests.cpp" />
+        <option value="$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp" />
         <option value="$PROJECT_DIR$/Tests/ArrayLinkedList_Tests.cpp" />
+        <option value="$PROJECT_DIR$/include/ILinkedList.h" />
+        <option value="$PROJECT_DIR$/src/ArrayLinkedList.cpp" />
+        <option value="$PROJECT_DIR$/src/DoublyLinkedList.cpp" />
+        <option value="$PROJECT_DIR$/src/LinkedList.cpp" />
       </list>
     </option>
   </component>
@@ -209,7 +235,7 @@
             <path>
               <item name="Amer_Delic" type="b2602c69:ProjectViewProjectNode" />
               <item name="Amer_Delic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,25 +277,25 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayLinkedList_Tests.Contains_WhenEmpty_AssertListDoesNotContain1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayLinkedList_Tests" TEST_METHOD="Contains_WhenEmpty_AssertListDoesNotContain1" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArrayLinkedList_Tests.GetHeadValue_WhenListEmpty_" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayLinkedList_Tests" TEST_METHOD="GetHeadValue_WhenListEmpty_" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayLinkedList_Tests.RemoveByValue_AssertListDoesNotContain2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayLinkedList_Tests" TEST_METHOD="RemoveByValue_AssertListDoesNotContain2" TEST_MODE="SUITE_TEST">
+    <configuration name="ArrayStack_Tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayStack_Tests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayLinkedList_Tests.RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="ArrayLinkedList_Tests" TEST_METHOD="RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize" TEST_MODE="SUITE_TEST">
+    <configuration name="DoublyLinkedList_Tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="DoublyLinkedList_Tests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stack_Tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Amer_Delic" TARGET_NAME="Amer_Delic" RUN_TARGET_PROJECT_NAME="Amer_Delic" RUN_TARGET_NAME="Amer_Delic" TEST_CLASS="Stack_Tests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -307,34 +333,22 @@
       <item itemvalue="Application.gtest" />
       <item itemvalue="Application.gtest_main" />
       <item itemvalue="Google Test.ArrayLinkedList_Tests" />
-      <item itemvalue="Google Test.ArrayLinkedList_Tests.Contains_WhenEmpty_AssertListDoesNotContain1" />
-      <item itemvalue="Google Test.ArrayLinkedList_Tests.RemoveByValue_AssertListDoesNotContain2" />
-      <item itemvalue="Google Test.ArrayLinkedList_Tests.RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize" />
       <item itemvalue="Google Test.ArrayLinkedList_Tests.GetHeadValue_WhenListEmpty_" />
+      <item itemvalue="Google Test.Stack_Tests" />
+      <item itemvalue="Google Test.DoublyLinkedList_Tests" />
+      <item itemvalue="Google Test.ArrayStack_Tests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Google Test.ArrayLinkedList_Tests" />
+        <item itemvalue="Google Test.ArrayStack_Tests" />
+        <item itemvalue="Google Test.DoublyLinkedList_Tests" />
+        <item itemvalue="Google Test.Stack_Tests" />
         <item itemvalue="Google Test.ArrayLinkedList_Tests.GetHeadValue_WhenListEmpty_" />
-        <item itemvalue="Google Test.ArrayLinkedList_Tests.RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize" />
-        <item itemvalue="Google Test.ArrayLinkedList_Tests.RemoveByValue_AssertListDoesNotContain2" />
-        <item itemvalue="Google Test.ArrayLinkedList_Tests.Contains_WhenEmpty_AssertListDoesNotContain1" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayLinkedList_Tests - 2019.01.04 at 14h 53m 40s.xml">
-      <configuration name="ArrayLinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ArrayLinkedList_Tests_RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize - 2019.01.04 at 14h 54m 03s.xml">
-      <configuration name="ArrayLinkedList_Tests.RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ArrayLinkedList_Tests_RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize - 2019.01.04 at 14h 54m 29s.xml">
-      <configuration name="ArrayLinkedList_Tests.RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ArrayLinkedList_Tests_RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize - 2019.01.04 at 14h 56m 50s.xml">
-      <configuration name="ArrayLinkedList_Tests.RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="ArrayLinkedList_Tests_RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize - 2019.01.04 at 14h 57m 22s.xml">
       <configuration name="ArrayLinkedList_Tests.RemoveByValue_WhenListDoesNotContainValue_AssertListIsSameSize" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -351,6 +365,18 @@
       <configuration name="ArrayLinkedList_Tests.GetHeadValue_WhenListEmpty_" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
     <history-entry file="ArrayLinkedList_Tests - 2019.01.04 at 15h 09m 06s.xml">
+      <configuration name="ArrayLinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Stack_Tests - 2019.01.04 at 15h 50m 54s.xml">
+      <configuration name="Stack_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DoublyLinkedList_Tests - 2019.01.04 at 15h 51m 00s.xml">
+      <configuration name="DoublyLinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArrayStack_Tests - 2019.01.04 at 15h 51m 05s.xml">
+      <configuration name="ArrayStack_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArrayLinkedList_Tests - 2019.01.04 at 15h 51m 09s.xml">
       <configuration name="ArrayLinkedList_Tests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
@@ -371,7 +397,7 @@
       <window_info id="Structure" order="1" sideWeight="0.50068307" side_tool="true" weight="0.16016641" />
       <window_info id="Favorites" order="2" sideWeight="0.50068307" side_tool="true" weight="0.16016641" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294956" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19663513" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3154574" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -428,17 +454,6 @@
     <MESSAGE value="Added Queue class. Need to implement exception handling." />
     <MESSAGE value="Implemented exception handling." />
     <option name="LAST_COMMIT_MESSAGE" value="Implemented exception handling." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/ArrayLinkedList.cpp</url>
-          <line>124</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/library_amer_delic.cpp" />
@@ -532,37 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Stack_Tests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-          <folding>
-            <element signature="e#39#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#73#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
@@ -574,27 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/googletest-master/googletest/include/gtest/gtest.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="472" column="15" selection-start-line="472" selection-start-column="15" selection-end-line="472" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/LinkedList_Tests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#39#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,6 +606,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayStack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="2" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/LinkedList_Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ILinkedList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="211" column="18" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#73#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="170" column="13" lean-forward="true" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayLinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="151" column="18" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
+          <folding>
+            <element signature="e#37#61#0" expanded="true" />
+            <element signature="e#283#415#0" />
+            <element signature="e#421#580#0" />
+            <element signature="e#586#906#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Stack_Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/ArrayStack_Tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -649,44 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayStack.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="2" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/ILinkedList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayLinkedList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="152" column="4" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
-          <folding>
-            <element signature="e#37#61#0" expanded="true" />
-            <element signature="e#283#415#0" />
-            <element signature="e#421#580#0" />
-            <element signature="e#586#906#0" />
-            <element signature="e#999#1339#0" />
-            <element signature="e#1431#1766#0" />
-            <element signature="e#1772#2104#0" />
-            <element signature="e#2110#2344#0" />
-            <element signature="e#2350#2853#0" />
-            <element signature="e#2880#2948#0" />
-            <element signature="e#3038#3118#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/ArrayLinkedList_Tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+        <state relative-caret-position="945">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
           <folding>
             <element signature="e#37#61#0" expanded="true" />
             <element signature="e#612#665#0" />

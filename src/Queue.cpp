@@ -14,13 +14,13 @@ public:
     {this->linkedList = linkedList;}
 
     void enqueue(T item) override
-    { this->linkedList->add_first(item); }
+    { this->linkedList->AddFirst(item); }
 
     void dequeue() override
     {
 
         try {
-            this->linkedList->remove_first();
+            this->linkedList->RemoveFirst();
         }
         catch(std::out_of_range& ex)
         {
@@ -32,7 +32,7 @@ public:
     {
 
         try {
-            auto next = this->linkedList->get_head_value();
+            auto next = this->linkedList->GetHeadValue();
 
             return next;
         }
@@ -49,7 +49,7 @@ public:
     {
 
         try {
-            this->linkedList->clear_all();
+            this->linkedList->Clear();
         }
         catch(std::out_of_range& ex)
         {
