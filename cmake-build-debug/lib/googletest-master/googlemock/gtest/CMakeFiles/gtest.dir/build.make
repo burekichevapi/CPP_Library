@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic"
+CMAKE_SOURCE_DIR = "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ../lib/googletest-master/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/lib/googletest-master/googletest/src/gtest-all.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/lib/googletest-master/googletest/src/gtest-all.cc"
 
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/lib/googletest-master/googletest/src/gtest-all.cc" > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/lib/googletest-master/googletest/src/gtest-all.cc" > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/lib/googletest-master/googletest/src/gtest-all.cc" -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/lib/googletest-master/googletest/src/gtest-all.cc" -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -80,9 +80,9 @@ gtest_EXTERNAL_OBJECTS =
 lib/libgtestd.a: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 lib/libgtestd.a: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make
 lib/libgtestd.a: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../libgtestd.a"
-	cd "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../libgtestd.a"
+	cd "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build: lib/libgtestd.a
@@ -90,10 +90,10 @@ lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build: lib/libgtestd
 .PHONY : lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/clean:
-	cd "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend:
-	cd "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/lib/googletest-master/googletest" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/lib/googletest-master/googletest" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend
 

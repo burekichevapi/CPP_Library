@@ -118,34 +118,42 @@ public:
 
     void remove_by_value(T value) override
     {
-        if(contains(value))
+        T *newArray = new T[this->_size - 1];
+
+        for (int i = 0; i < this->_size; i++)
         {
-            T *newArray = new T[this->_size - 1];
-            int i;
-
-            for(i = 0; i < this->_size; i++)
+            if (this->_items[i] == value)
             {
-                if(this->_items[i] == value)
-                    break;
+                for (i; i < this->_size; i++)
+                    newArray[i] = this->_items[i + 1];
 
-                newArray[i] = this->_items[i];
+                this->_size--;
+                break;
             }
 
-            for(i; i < this->_size; i++)
-                newArray[i-1] = this->_items[i];
-
-            this->_items = newArray;
-
-            this->_size--;
-            newArray = nullptr;
-            delete (newArray);
+            newArray[i] = this->_items[i];
         }
+
+        this->_items = newArray;
+
+        newArray = nullptr;
+        delete (newArray);
 
     }
 
     T get_head_value() override
-    { return this->_items[0]; }
+    {
+        if(this->empty())
+            throw std::out_of_range("List is Empty");
+
+        return this->_items[0];
+    }
 
     T get_tail_value() override
-    { return this->_items[this->_size-1]; }
+    {
+        if(this->empty())
+            throw std::out_of_range("List is Empty");
+
+        return this->_items[this->_size-1];
+    }
 };

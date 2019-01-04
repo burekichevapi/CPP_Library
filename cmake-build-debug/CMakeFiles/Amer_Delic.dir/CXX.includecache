@@ -10,14 +10,6 @@
 Node.h
 ../include/Node.h
 
-../include/IQueue.h
-ILinkedList.h
-../include/ILinkedList.h
-
-../include/IStack.h
-ILinkedList.h
-../include/ILinkedList.h
-
 ../include/Node.h
 
 ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
@@ -528,105 +520,19 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ArrayLinkedList_Tests.cpp
+/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/ArrayLinkedList_Tests.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
 -
 ILinkedList.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ILinkedList.h
+/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/ILinkedList.h
 ../src/ArrayLinkedList.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
+/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
 
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ArrayStack_Tests.cpp
-gtest/gtest.h
--
-gmock/gmock.h
--
-IStack.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/IStack.h
-../src/ArrayStack.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp
-gtest/gtest.h
--
-gmock/gmock.h
--
-ILinkedList.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ILinkedList.h
-../src/DoublyLinkedList.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
-../src/Node.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp
-gtest/gtest.h
--
-gmock/gmock.h
--
-ILinkedList.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ILinkedList.h
-../src/LinkedList.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
-../src/Node.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/Stack_Tests.cpp
-gtest/gtest.h
--
-gmock/gmock.h
--
-IStack.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/IStack.h
-../src/Stack.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
-../src/LinkedList.cpp
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
+/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
 ILinkedList.h
 -
 iostream
 -
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp
-iostream
--
-IStack.h
--
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
-iostream
--
-ILinkedList.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ILinkedList.h
-Node.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
-iostream
--
-ILinkedList.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ILinkedList.h
-Node.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
-Node.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Queue.cpp
-iostream
--
-IQueue.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/IQueue.h
-ILinkedList.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ILinkedList.h
-
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
-iostream
--
-IStack.h
-/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/IStack.h
 

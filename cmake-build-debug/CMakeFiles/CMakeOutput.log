@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b3015/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b3015.dir/build.make CMakeFiles/cmTC_b3015.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3015.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b3015.dir/testCCompiler.c.o   -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_b3015
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3015.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b3015.dir/testCCompiler.c.o  -o cmTC_b3015 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_47778/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47778.dir/build.make CMakeFiles/cmTC_47778.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47778.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_47778.dir/testCCompiler.c.o   -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_47778
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47778.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_47778.dir/testCCompiler.c.o  -o cmTC_47778 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dca85/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dca85.dir/build.make CMakeFiles/cmTC_dca85.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o   -c /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_dca85
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dca85.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o  -o cmTC_dca85 
+Run Build Command:"/usr/bin/make" "cmTC_b0961/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0961.dir/build.make CMakeFiles/cmTC_b0961.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o   -c /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b0961
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0961.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o  -o cmTC_b0961 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dca85' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpP5x4b.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dca85 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dca85' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0961' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cciEKgGl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b0961 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0961' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dca85/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dca85.dir/build.make CMakeFiles/cmTC_dca85.dir/build]
-  ignore line: [make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o   -c /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_dca85]
-  ignore line: [/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dca85.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o  -o cmTC_dca85 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b0961/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b0961.dir/build.make CMakeFiles/cmTC_b0961.dir/build]
+  ignore line: [make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o   -c /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b0961]
+  ignore line: [/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0961.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o  -o cmTC_b0961 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dca85' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpP5x4b.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dca85 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b0961' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cciEKgGl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b0961 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccpP5x4b.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciEKgGl.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dca85] ==> ignore
+    arg [cmTC_b0961] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_dca85.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b0961.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e5a3a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e5a3a.dir/build.make CMakeFiles/cmTC_e5a3a.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5a3a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e5a3a.dir/feature_tests.c.o   -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_e5a3a
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5a3a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e5a3a.dir/feature_tests.c.o  -o cmTC_e5a3a 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_48ed4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48ed4.dir/build.make CMakeFiles/cmTC_48ed4.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48ed4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_48ed4.dir/feature_tests.c.o   -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_48ed4
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48ed4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_48ed4.dir/feature_tests.c.o  -o cmTC_48ed4 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7d89f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7d89f.dir/build.make CMakeFiles/cmTC_7d89f.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7d89f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_7d89f.dir/feature_tests.c.o   -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_7d89f
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d89f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_7d89f.dir/feature_tests.c.o  -o cmTC_7d89f 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_baed1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_baed1.dir/build.make CMakeFiles/cmTC_baed1.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baed1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_baed1.dir/feature_tests.c.o   -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_baed1
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baed1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_baed1.dir/feature_tests.c.o  -o cmTC_baed1 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7e63b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7e63b.dir/build.make CMakeFiles/cmTC_7e63b.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e63b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7e63b.dir/feature_tests.c.o   -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_7e63b
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e63b.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_7e63b.dir/feature_tests.c.o  -o cmTC_7e63b 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6214b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6214b.dir/build.make CMakeFiles/cmTC_6214b.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6214b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_6214b.dir/feature_tests.c.o   -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_6214b
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6214b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6214b.dir/feature_tests.c.o  -o cmTC_6214b 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37b20/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37b20.dir/build.make CMakeFiles/cmTC_37b20.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_37b20.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_37b20.dir/testCXXCompiler.cxx.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_37b20
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37b20.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_37b20.dir/testCXXCompiler.cxx.o  -o cmTC_37b20 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_aa34f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa34f.dir/build.make CMakeFiles/cmTC_aa34f.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa34f.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_aa34f.dir/testCXXCompiler.cxx.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_aa34f
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa34f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_aa34f.dir/testCXXCompiler.cxx.o  -o cmTC_aa34f 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a8eb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a8eb.dir/build.make CMakeFiles/cmTC_1a8eb.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o -c /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_1a8eb
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a8eb.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1a8eb 
+Run Build Command:"/usr/bin/make" "cmTC_4b0ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b0ba.dir/build.make CMakeFiles/cmTC_4b0ba.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o -c /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4b0ba
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b0ba.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4b0ba 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a8eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjd0mDf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1a8eb /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a8eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b0ba' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cclHX0EE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b0ba /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b0ba' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1a8eb/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1a8eb.dir/build.make CMakeFiles/cmTC_1a8eb.dir/build]
-  ignore line: [make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o -c /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_1a8eb]
-  ignore line: [/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a8eb.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1a8eb ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4b0ba/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4b0ba.dir/build.make CMakeFiles/cmTC_4b0ba.dir/build]
+  ignore line: [make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o -c /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4b0ba]
+  ignore line: [/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b0ba.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4b0ba ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a8eb' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjd0mDf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1a8eb /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b0ba' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cclHX0EE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4b0ba /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjd0mDf.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclHX0EE.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1a8eb] ==> ignore
+    arg [cmTC_4b0ba] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_1a8eb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4b0ba.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0af87/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0af87.dir/build.make CMakeFiles/cmTC_0af87.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0af87.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_0af87.dir/feature_tests.cxx.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_0af87
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af87.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_0af87.dir/feature_tests.cxx.o  -o cmTC_0af87 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a1bfc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1bfc.dir/build.make CMakeFiles/cmTC_a1bfc.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1bfc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_a1bfc.dir/feature_tests.cxx.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_a1bfc
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1bfc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a1bfc.dir/feature_tests.cxx.o  -o cmTC_a1bfc 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1fa19/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1fa19.dir/build.make CMakeFiles/cmTC_1fa19.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1fa19.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_1fa19.dir/feature_tests.cxx.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_1fa19
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa19.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_1fa19.dir/feature_tests.cxx.o  -o cmTC_1fa19 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5a5a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5a5a3.dir/build.make CMakeFiles/cmTC_5a5a3.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a5a3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_5a5a3.dir/feature_tests.cxx.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_5a5a3
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a5a3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_5a5a3.dir/feature_tests.cxx.o  -o cmTC_5a5a3 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8a99/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c8a99.dir/build.make CMakeFiles/cmTC_c8a99.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c8a99.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c8a99.dir/feature_tests.cxx.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_c8a99
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8a99.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c8a99.dir/feature_tests.cxx.o  -o cmTC_c8a99 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ab2b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab2b0.dir/build.make CMakeFiles/cmTC_ab2b0.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab2b0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_ab2b0.dir/feature_tests.cxx.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_ab2b0
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab2b0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ab2b0.dir/feature_tests.cxx.o  -o cmTC_ab2b0 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_06775/fast"
-/usr/bin/make -f CMakeFiles/cmTC_06775.dir/build.make CMakeFiles/cmTC_06775.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_06775.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_06775.dir/feature_tests.cxx.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_06775
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06775.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_06775.dir/feature_tests.cxx.o  -o cmTC_06775 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bcc59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bcc59.dir/build.make CMakeFiles/cmTC_bcc59.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bcc59.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_bcc59.dir/feature_tests.cxx.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_bcc59
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcc59.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_bcc59.dir/feature_tests.cxx.o  -o cmTC_bcc59 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -634,17 +634,17 @@ make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c071f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c071f.dir/build.make CMakeFiles/cmTC_c071f.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c071f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_c071f.dir/feature_tests.cxx.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_c071f
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c071f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c071f.dir/feature_tests.cxx.o  -o cmTC_c071f 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_19e12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19e12.dir/build.make CMakeFiles/cmTC_19e12.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19e12.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_19e12.dir/feature_tests.cxx.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_19e12
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e12.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_19e12.dir/feature_tests.cxx.o  -o cmTC_19e12 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -705,30 +705,30 @@ make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fb1d9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fb1d9.dir/build.make CMakeFiles/cmTC_fb1d9.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fb1d9.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_fb1d9.dir/CheckIncludeFile.c.o   -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
-Linking C executable cmTC_fb1d9
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb1d9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fb1d9.dir/CheckIncludeFile.c.o  -o cmTC_fb1d9 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2fed8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fed8.dir/build.make CMakeFiles/cmTC_2fed8.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fed8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2fed8.dir/CheckIncludeFile.c.o   -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_2fed8
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fed8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2fed8.dir/CheckIncludeFile.c.o  -o cmTC_2fed8 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_66e48/fast"
-/usr/bin/make -f CMakeFiles/cmTC_66e48.dir/build.make CMakeFiles/cmTC_66e48.dir/build
-make[1]: Entering directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66e48.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_66e48.dir/CheckFunctionExists.c.o   -c /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_66e48
-/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66e48.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_66e48.dir/CheckFunctionExists.c.o  -o cmTC_66e48 -lpthread 
-make[1]: Leaving directory '/mnt/hgfs/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_166c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_166c9.dir/build.make CMakeFiles/cmTC_166c9.dir/build
+make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_166c9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_166c9.dir/CheckFunctionExists.c.o   -c /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_166c9
+/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_166c9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_166c9.dir/CheckFunctionExists.c.o  -o cmTC_166c9 -lpthread 
+make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

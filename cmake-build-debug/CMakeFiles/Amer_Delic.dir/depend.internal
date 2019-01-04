@@ -44,8 +44,8 @@ CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ArrayLinkedList_Tests.cpp
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/ArrayLinkedList_Tests.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
 CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.o
  ../include/ILinkedList.h
  ../include/IStack.h
@@ -90,8 +90,8 @@ CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ArrayStack_Tests.cpp
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/ArrayStack_Tests.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayStack.cpp
 CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o
  ../include/ILinkedList.h
  ../include/Node.h
@@ -135,9 +135,9 @@ CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Node.cpp
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o
  ../include/ILinkedList.h
  ../include/Node.h
@@ -181,9 +181,9 @@ CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedList.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Node.cpp
 CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o
  ../include/ILinkedList.h
  ../include/IStack.h
@@ -228,9 +228,9 @@ CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/Stack_Tests.cpp
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/Stack_Tests.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedList.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Stack.cpp
 CMakeFiles/Amer_Delic.dir/main.cpp.o
  ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h
@@ -272,40 +272,40 @@ CMakeFiles/Amer_Delic.dir/main.cpp.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/main.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/main.cpp
 CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o
  ../include/ILinkedList.h
  ../include/Node.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayLinkedList.cpp
 CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o
  ../include/ILinkedList.h
  ../include/IStack.h
  ../include/Node.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ArrayStack.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayStack.cpp
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o
  ../include/ILinkedList.h
  ../include/Node.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/DoublyLinkedList.cpp
 CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o
  ../include/FileManager.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/FileManager.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/FileManager.cpp
 CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o
  ../include/ILinkedList.h
  ../include/Node.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedList.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedList.cpp
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o
  ../include/Node.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Node.cpp
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o
  ../include/ILinkedList.h
  ../include/IQueue.h
  ../include/Node.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Queue.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Queue.cpp
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o
  ../include/ILinkedList.h
  ../include/IStack.h
  ../include/Node.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Stack.cpp
 CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o
  ../include/console_management.h
- /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/console_management.cpp
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/console_management.cpp
