@@ -221,6 +221,33 @@ gtest/fast:
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+Tests/ArrayLinkedList_Tests.o: Tests/ArrayLinkedList_Tests.cpp.o
+
+.PHONY : Tests/ArrayLinkedList_Tests.o
+
+# target to build an object file
+Tests/ArrayLinkedList_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o
+.PHONY : Tests/ArrayLinkedList_Tests.cpp.o
+
+Tests/ArrayLinkedList_Tests.i: Tests/ArrayLinkedList_Tests.cpp.i
+
+.PHONY : Tests/ArrayLinkedList_Tests.i
+
+# target to preprocess a source file
+Tests/ArrayLinkedList_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.i
+.PHONY : Tests/ArrayLinkedList_Tests.cpp.i
+
+Tests/ArrayLinkedList_Tests.s: Tests/ArrayLinkedList_Tests.cpp.s
+
+.PHONY : Tests/ArrayLinkedList_Tests.s
+
+# target to generate assembly for a file
+Tests/ArrayLinkedList_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.s
+.PHONY : Tests/ArrayLinkedList_Tests.cpp.s
+
 Tests/ArrayStack_Tests.o: Tests/ArrayStack_Tests.cpp.o
 
 .PHONY : Tests/ArrayStack_Tests.o
@@ -616,6 +643,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... Tests/ArrayLinkedList_Tests.o"
+	@echo "... Tests/ArrayLinkedList_Tests.i"
+	@echo "... Tests/ArrayLinkedList_Tests.s"
 	@echo "... Tests/ArrayStack_Tests.o"
 	@echo "... Tests/ArrayStack_Tests.i"
 	@echo "... Tests/ArrayStack_Tests.s"

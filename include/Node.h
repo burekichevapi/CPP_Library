@@ -5,9 +5,9 @@
 template <class T> class Node
 {
 private:
-    T _value;
-    Node *_previousNode;
-    Node *_nextNode;
+    T _value = 0;
+    Node *_previousNode = nullptr;
+    Node *_nextNode = nullptr;
 
 public:
     Node(T value);

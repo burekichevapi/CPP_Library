@@ -70,7 +70,7 @@ public:
 
     void remove_first() override
     {
-        if (this->is_empty())
+        if (this->empty())
             return;
 
         this->_size--;
@@ -88,7 +88,7 @@ public:
 
     void remove_last() override
     {
-        if (this->is_empty())
+        if (this->empty())
             return;
 
         this->_size--;
@@ -106,7 +106,7 @@ public:
 
     bool contains(T value) override
     {
-        if(this->is_empty())
+        if(this->empty())
             return false;
 
         for(int i = 0; i < this->_size; i++)

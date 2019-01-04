@@ -26,7 +26,7 @@ public:
 
 TEST_F(LinkedList_Tests, Assert_Is_Initialized_With_One_Value)
 {
-    ASSERT_THAT(linkedListNum->get_number_of_nodes(), 1);
+    ASSERT_THAT(linkedListNum->get_size(), 1);
 }
 
 TEST_F(LinkedList_Tests, Assert_Throws_When_Empty_Calling_Print_All)
@@ -42,7 +42,7 @@ TEST_F(LinkedList_Tests, Assert_Is_Empty_When_Clear_All)
     linkedListNum->add_first(88);
     linkedListNum->clear_all();
 
-    ASSERT_THAT(linkedListNum->get_number_of_nodes(), 0);
+    ASSERT_THAT(linkedListNum->get_size(), 0);
 }
 
 TEST_F(LinkedList_Tests, Assert_Can_Add_First)

@@ -27,7 +27,7 @@ public:
 
 TEST_F(DoublyLinkedList_Tests, Assert_Is_Initialized_With_Two_Values)
 {
-    ASSERT_THAT(linkedListNum->get_number_of_nodes(), 2);
+    ASSERT_THAT(linkedListNum->get_size(), 2);
 }
 
 TEST_F(DoublyLinkedList_Tests, Assert_Throws_When_Empty_Calling_Print_All)
@@ -44,7 +44,7 @@ TEST_F(DoublyLinkedList_Tests, Assert_Is_Empty_When_Clear_All)
     linkedListNum->add_first(88);
     linkedListNum->clear_all();
 
-    ASSERT_THAT(linkedListNum->get_number_of_nodes(), 0);
+    ASSERT_THAT(linkedListNum->get_size(), 0);
 }
 
 TEST_F(DoublyLinkedList_Tests, Assert_Can_Add_First)

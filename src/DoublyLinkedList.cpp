@@ -37,7 +37,7 @@ public:
         this->_size = 2;
     }
 
-    unsigned int get_number_of_nodes() override
+    unsigned int get_size() override
     { return this->_size; }
 
     void print_all() override

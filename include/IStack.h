@@ -7,7 +7,7 @@ template <class T>
 class IStack
 {
 protected:
-    ILinkedList<T> *_linkedList;
+    ILinkedList<T> *_linkedList = nullptr;
 
 public:
     virtual unsigned int get_depth() = 0;

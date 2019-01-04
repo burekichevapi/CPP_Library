@@ -14,7 +14,7 @@ file(GLOB SOURCE_FILES
         main.cpp)
 
 set(TEST_FILES
-        Tests/LinkedList_Tests.cpp Tests/DoublyLinkedList_Tests.cpp Tests/ArrayStack_Tests.cpp Tests/Stack_Tests.cpp)
+        Tests/LinkedList_Tests.cpp Tests/DoublyLinkedList_Tests.cpp Tests/ArrayStack_Tests.cpp Tests/Stack_Tests.cpp Tests/ArrayLinkedList_Tests.cpp)
 
 add_executable(Amer_Delic ${SOURCE_FILES} ${TEST_FILES})
 

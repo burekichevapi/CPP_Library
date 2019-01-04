@@ -9,7 +9,7 @@ template <class T>
 class IQueue
 {
 protected:
-    ILinkedList<T> *linkedList;
+    ILinkedList<T> *linkedList = nullptr;
 
 public:
 

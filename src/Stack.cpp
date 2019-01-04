@@ -9,7 +9,7 @@ public:
     { this->_linkedList = linkedList; }
 
     unsigned int get_depth() override
-    { return this->_linkedList->get_number_of_nodes(); }
+    { return this->_linkedList->get_size(); }
 
     bool is_empty() override
     { return get_depth() == 0; }

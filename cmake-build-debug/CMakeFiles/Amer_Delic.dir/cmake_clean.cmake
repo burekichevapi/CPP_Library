@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o"
   "CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.o"
   "CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o"
+  "CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o"
   "Amer_Delic.pdb"
   "Amer_Delic"
 )
