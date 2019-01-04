@@ -17,6 +17,9 @@ public:
 
     void PrintAll() override
     {
+        if (this->IsEmpty())
+            throw std::out_of_range("List is Empty.");
+
         for(int i = 0; i < this->_size; i++)
             std::cout << this->_items[i] << "\n";
     }
@@ -47,7 +50,7 @@ public:
     }
 
     void AddFirst(Node<T> *newNode) override
-    { AddFirst(newNode->get_value()); }
+    { AddFirst(newNode->GetValue()); }
 
     void AddLast(T item) override
     {
@@ -66,12 +69,12 @@ public:
     }
 
     void AddLast(Node<T> *newNode) override
-    { AddLast(newNode->get_value()); }
+    { AddLast(newNode->GetValue()); }
 
     void RemoveFirst() override
     {
-        if (this->isEmpty())
-            return;
+        if (this->IsEmpty())
+            throw std::out_of_range("List is Empty");
 
         this->_size--;
 
@@ -88,7 +91,7 @@ public:
 
     void RemoveLast() override
     {
-        if (this->isEmpty())
+        if (this->IsEmpty())
             return;
 
         this->_size--;
@@ -106,7 +109,7 @@ public:
 
     bool Contains(T value) override
     {
-        if(this->isEmpty())
+        if(this->IsEmpty())
             return false;
 
         for(int i = 0; i < this->_size; i++)
@@ -143,7 +146,7 @@ public:
 
     T GetHeadValue() override
     {
-        if(this->isEmpty())
+        if(this->IsEmpty())
             throw std::out_of_range("List is Empty");
 
         return this->_items[0];
@@ -151,7 +154,7 @@ public:
 
     T GetTailValue() override
     {
-        if(this->isEmpty())
+        if(this->IsEmpty())
             throw std::out_of_range("List is Empty");
 
         return this->_items[this->_size-1];

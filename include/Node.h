@@ -13,14 +13,14 @@ public:
     Node(T value);
     Node(Node<T> *previous, T value, Node<T> *next);
 
-    T get_value();
-    void set_value(T value);
+    T GetValue();
+    void SetValue(T value);
 
-    Node *get_next_node();
-    void set_next_node(Node *node);
+    Node *GetNextNode();
+    void SetNextNode(Node *node);
 
-    Node *get_previous_node();
-    void set_previous_node(Node *node);
+    Node *GetPreviousNode();
+    void SerPreviousNode(Node *node);
 };
 
 

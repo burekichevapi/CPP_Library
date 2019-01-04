@@ -343,9 +343,6 @@
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/ArrayLinkedList_Tests.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
-		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/ArrayStack_Tests.cpp">
-			<Option target="Amer_Delic"/>
-		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
@@ -371,9 +368,6 @@
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayLinkedList.cpp">
-			<Option target="Amer_Delic"/>
-		</Unit>
-		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayStack.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp">

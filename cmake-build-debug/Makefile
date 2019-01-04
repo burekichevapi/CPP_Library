@@ -248,33 +248,6 @@ Tests/ArrayLinkedList_Tests.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.s
 .PHONY : Tests/ArrayLinkedList_Tests.cpp.s
 
-Tests/ArrayStack_Tests.o: Tests/ArrayStack_Tests.cpp.o
-
-.PHONY : Tests/ArrayStack_Tests.o
-
-# target to build an object file
-Tests/ArrayStack_Tests.cpp.o:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.o
-.PHONY : Tests/ArrayStack_Tests.cpp.o
-
-Tests/ArrayStack_Tests.i: Tests/ArrayStack_Tests.cpp.i
-
-.PHONY : Tests/ArrayStack_Tests.i
-
-# target to preprocess a source file
-Tests/ArrayStack_Tests.cpp.i:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.i
-.PHONY : Tests/ArrayStack_Tests.cpp.i
-
-Tests/ArrayStack_Tests.s: Tests/ArrayStack_Tests.cpp.s
-
-.PHONY : Tests/ArrayStack_Tests.s
-
-# target to generate assembly for a file
-Tests/ArrayStack_Tests.cpp.s:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.s
-.PHONY : Tests/ArrayStack_Tests.cpp.s
-
 Tests/DoublyLinkedList_Tests.o: Tests/DoublyLinkedList_Tests.cpp.o
 
 .PHONY : Tests/DoublyLinkedList_Tests.o
@@ -409,33 +382,6 @@ src/ArrayLinkedList.s: src/ArrayLinkedList.cpp.s
 src/ArrayLinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.s
 .PHONY : src/ArrayLinkedList.cpp.s
-
-src/ArrayStack.o: src/ArrayStack.cpp.o
-
-.PHONY : src/ArrayStack.o
-
-# target to build an object file
-src/ArrayStack.cpp.o:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o
-.PHONY : src/ArrayStack.cpp.o
-
-src/ArrayStack.i: src/ArrayStack.cpp.i
-
-.PHONY : src/ArrayStack.i
-
-# target to preprocess a source file
-src/ArrayStack.cpp.i:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.i
-.PHONY : src/ArrayStack.cpp.i
-
-src/ArrayStack.s: src/ArrayStack.cpp.s
-
-.PHONY : src/ArrayStack.s
-
-# target to generate assembly for a file
-src/ArrayStack.cpp.s:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.s
-.PHONY : src/ArrayStack.cpp.s
 
 src/ConsoleManagement.o: src/ConsoleManagement.cpp.o
 
@@ -646,9 +592,6 @@ help:
 	@echo "... Tests/ArrayLinkedList_Tests.o"
 	@echo "... Tests/ArrayLinkedList_Tests.i"
 	@echo "... Tests/ArrayLinkedList_Tests.s"
-	@echo "... Tests/ArrayStack_Tests.o"
-	@echo "... Tests/ArrayStack_Tests.i"
-	@echo "... Tests/ArrayStack_Tests.s"
 	@echo "... Tests/DoublyLinkedList_Tests.o"
 	@echo "... Tests/DoublyLinkedList_Tests.i"
 	@echo "... Tests/DoublyLinkedList_Tests.s"
@@ -664,9 +607,6 @@ help:
 	@echo "... src/ArrayLinkedList.o"
 	@echo "... src/ArrayLinkedList.i"
 	@echo "... src/ArrayLinkedList.s"
-	@echo "... src/ArrayStack.o"
-	@echo "... src/ArrayStack.i"
-	@echo "... src/ArrayStack.s"
 	@echo "... src/ConsoleManagement.o"
 	@echo "... src/ConsoleManagement.i"
 	@echo "... src/ConsoleManagement.s"

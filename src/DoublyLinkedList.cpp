@@ -12,11 +12,11 @@ public:
         this->_head = head;
         this->_tail = tail;
 
-        this->_head->set_previous_node(this->_previous);
-        this->_head->set_next_node(this->_tail);
+        this->_head->SerPreviousNode(this->_previous);
+        this->_head->SetNextNode(this->_tail);
 
-        this->_tail->set_previous_node(this->_head);
-        this->_tail->set_next_node(nullptr);
+        this->_tail->SerPreviousNode(this->_head);
+        this->_tail->SetNextNode(nullptr);
 
         this->_previous = nullptr;
         this->_size = 2;
@@ -27,11 +27,11 @@ public:
         this->_head = new Node<T>(head);
         this->_tail = new Node<T>(tail);
 
-        this->_head->set_previous_node(this->_previous);
-        this->_head->set_next_node(this->_tail);
+        this->_head->SerPreviousNode(this->_previous);
+        this->_head->SetNextNode(this->_tail);
 
-        this->_tail->set_previous_node(this->_head);
-        this->_tail->set_next_node(nullptr);
+        this->_tail->SerPreviousNode(this->_head);
+        this->_tail->SetNextNode(nullptr);
 
         this->_previous = nullptr;
         this->_size = 2;
@@ -42,7 +42,7 @@ public:
 
     void PrintAll() override
     {
-        if (this->isEmpty())
+        if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
         Node<T> *temp = this->_head;
@@ -51,12 +51,12 @@ public:
         {
             if (this->nextIsNull(temp))
             {
-                std::cout << temp->get_value() << std::endl;
+                std::cout << temp->GetValue() << std::endl;
                 break;
             }
 
-            std::cout << temp->get_value() << std::endl;
-            temp = temp->get_next_node();
+            std::cout << temp->GetValue() << std::endl;
+            temp = temp->GetNextNode();
         }
     }
 
@@ -65,7 +65,7 @@ public:
         while (!this->isNull(this->_head))
         {
             Node<T> *temp = this->_head;
-            this->_head = this->_head->get_next_node();
+            this->_head = this->_head->GetNextNode();
             temp = nullptr;
             delete (temp);
         }
@@ -85,8 +85,8 @@ public:
             return;
         }
 
-        this->_head->set_next_node(temp);
-        temp->set_previous_node(this->_head);
+        this->_head->SetNextNode(temp);
+        temp->SerPreviousNode(this->_head);
         this->_size++;
 
     }
@@ -102,9 +102,9 @@ public:
     {
 
         Node<T> *temp = this->_tail;
-        temp->set_next_node(newNode);
-        this->_tail = temp->get_next_node();
-        this->_tail->set_previous_node(temp);
+        temp->SetNextNode(newNode);
+        this->_tail = temp->GetNextNode();
+        this->_tail->SerPreviousNode(temp);
 
         temp = nullptr;
         delete (temp);
@@ -120,33 +120,33 @@ public:
 
     void RemoveFirst() override
     {
-        if (this->isEmpty())
+        if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
-        this->_head = this->_head->get_next_node();
+        this->_head = this->_head->GetNextNode();
         this->_size--;
 
         if(this->isNull(this->_head))
             return;
 
-        this->_head->set_previous_node(nullptr);
+        this->_head->SerPreviousNode(nullptr);
 
     }
 
     void RemoveLast() override
     {
-        if (this->isEmpty())
+        if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
-        if(this->isNull(this->_head->get_next_node()))
+        if(this->isNull(this->_head->GetNextNode()))
         {
             this->_head = nullptr;
             this->_size--;
             return;
         }
 
-        this->_tail = this->_tail->get_previous_node();
-        this->_tail->set_next_node(nullptr);
+        this->_tail = this->_tail->GetPreviousNode();
+        this->_tail->SetNextNode(nullptr);
 
         this->_size--;
     }
@@ -157,10 +157,10 @@ public:
 
         while (!this->isNull(temp))
         {
-            if (temp->get_value() == value)
+            if (temp->GetValue() == value)
                 return true;
 
-            temp = temp->get_next_node();
+            temp = temp->GetNextNode();
         }
 
         return false;
@@ -168,52 +168,52 @@ public:
 
     void RemoveByValue(T value) override
     {
-        if (this->isEmpty())
+        if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
-        if (this->_head->get_value() == value)
+        if (this->_head->GetValue() == value)
         {
             RemoveFirst();
             return;
         }
 
-        if (this->_tail->get_value() == value)
+        if (this->_tail->GetValue() == value)
         {
             RemoveLast();
             return;
         }
 
         Node<T> *previous = this->_head;
-        Node<T> *current = this->_head->get_next_node();
+        Node<T> *current = this->_head->GetNextNode();
 
         while (!this->isNull(current))
         {
-            if (current->get_value() == value)
+            if (current->GetValue() == value)
             {
-                previous->set_next_node(current->get_next_node());
-                current->get_next_node()->set_previous_node(previous);
+                previous->SetNextNode(current->GetNextNode());
+                current->GetNextNode()->SerPreviousNode(previous);
                 this->_size--;
                 break;
             }
 
             previous = current;
-            current = current->get_next_node();
+            current = current->GetNextNode();
         }
     }
 
     T GetHeadValue() override
     {
-        if (this->isEmpty())
+        if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
-        return this->_head->get_value();
+        return this->_head->GetValue();
     }
 
     T GetTailValue() override
     {
-        if (this->isEmpty())
+        if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
-        return this->_tail->get_value();
+        return this->_tail->GetValue();
     }
 };

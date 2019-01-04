@@ -16,7 +16,8 @@ public:
 
     void PrintAll() override
     {
-        try {
+        try
+        {
             this->_linkedList->PrintAll();
         }
         catch(std::out_of_range& ex)
@@ -36,7 +37,8 @@ public:
 
     void Pop() override
     {
-        try {
+        try
+        {
             this->_linkedList->RemoveFirst();
         }
         catch(std::out_of_range& ex)
@@ -48,7 +50,8 @@ public:
 
     void Clear() override
     {
-        try {
+        try
+        {
             this->_linkedList->Clear();
         }
         catch(std::out_of_range& ex)
@@ -59,7 +62,8 @@ public:
 
     T Peek() override
     {
-        try{
+        try
+        {
             return this->_linkedList->GetHeadValue();
         }
         catch(std::out_of_range& ex)

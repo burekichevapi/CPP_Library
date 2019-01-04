@@ -16,7 +16,6 @@ file(GLOB SOURCE_FILES
 set(TEST_FILES
         Tests/LinkedList_Tests.cpp
         Tests/DoublyLinkedList_Tests.cpp
-        Tests/ArrayStack_Tests.cpp
         Tests/Stack_Tests.cpp
         Tests/ArrayLinkedList_Tests.cpp)
 

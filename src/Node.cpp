@@ -17,16 +17,16 @@ Node<T>::Node(Node<T> *previous, T value, Node<T> *next)
 }
 
 template <class T>
-T Node<T>::get_value(){return _value;}
+T Node<T>::GetValue(){return _value;}
 template <class T>
-void Node<T>::set_value(T value){_value = value;}
+void Node<T>::SetValue(T value){_value = value;}
 
 template <class T>
-Node<T>* Node<T>::get_next_node() {return _nextNode;}
+Node<T>* Node<T>::GetNextNode() {return _nextNode;}
 template <class T>
-void Node<T>::set_next_node(Node *node){_nextNode = node;}
+void Node<T>::SetNextNode(Node *node){_nextNode = node;}
 
 template <class T>
-Node<T>* Node<T>::get_previous_node() {return _previousNode;}
+Node<T>* Node<T>::GetPreviousNode() {return _previousNode;}
 template <class T>
-void Node<T>::set_previous_node(Node *node){_previousNode = node;}
+void Node<T>::SerPreviousNode(Node *node){_previousNode = node;}

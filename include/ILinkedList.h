@@ -19,12 +19,12 @@ protected:
     { return temp == nullptr; }
 
     bool nextIsNull(Node<T> *temp)
-    { return temp->get_next_node() == nullptr; }
-
-    bool isEmpty()
-    { return _size == 0; }
+    { return temp->GetNextNode() == nullptr; }
 
 public:
+    bool IsEmpty()
+    { return _size == 0; }
+
     virtual unsigned int GetSize() = 0;
 
     virtual void PrintAll() = 0;

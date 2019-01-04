@@ -18,8 +18,8 @@ public:
 
     void Dequeue() override
     {
-
-        try {
+        try
+        {
             this->linkedList->RemoveFirst();
         }
         catch(std::out_of_range& ex)
@@ -30,25 +30,20 @@ public:
 
     T GetNextItem() override
     {
-
-        try {
-            auto next = this->linkedList->GetHeadValue();
-
-            return next;
+        try
+        {
+            return this->linkedList->GetHeadValue();
         }
         catch(std::out_of_range& ex)
         {
             std::cout << "\nError: " << ex.what() << "\n";
-            return 0;
         }
-
-
     }
 
     void Clear() override
     {
-
-        try {
+        try
+        {
             this->linkedList->Clear();
         }
         catch(std::out_of_range& ex)

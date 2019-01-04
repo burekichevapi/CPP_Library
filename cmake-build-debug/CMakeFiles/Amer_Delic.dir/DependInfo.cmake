@@ -5,13 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/ArrayLinkedList_Tests.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o"
-  "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/ArrayStack_Tests.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/Stack_Tests.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/main.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/main.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayLinkedList.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o"
-  "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayStack.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/DoublyLinkedList.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/FileManager.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o"
