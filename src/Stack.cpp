@@ -8,13 +8,13 @@ public:
     Stack(ILinkedList<T> *linkedList)
     { this->_linkedList = linkedList; }
 
-    unsigned int get_depth() override
+    unsigned int GetDepth() override
     { return this->_linkedList->GetSize(); }
 
-    bool is_empty() override
-    { return get_depth() == 0; }
+    bool IsEmpty() override
+    { return GetDepth() == 0; }
 
-    void print_all() override
+    void PrintAll() override
     {
         try {
             this->_linkedList->PrintAll();
@@ -25,16 +25,16 @@ public:
         }
     }
 
-    void push(Node<T> *node) override
+    void Push(Node<T> *node) override
     { this->_linkedList->AddFirst(node); }
 
-    void push(T item)
+    void Push(T item)
     {
         Node<T> *newNode = new Node<T>(item);
-        push(newNode);
+        Push(newNode);
     };
 
-    void pop() override
+    void Pop() override
     {
         try {
             this->_linkedList->RemoveFirst();
@@ -46,7 +46,7 @@ public:
 
     }
 
-    void clear() override
+    void Clear() override
     {
         try {
             this->_linkedList->Clear();
@@ -57,7 +57,7 @@ public:
         }
     }
 
-    T peek() override
+    T Peek() override
     {
         try{
             return this->_linkedList->GetHeadValue();

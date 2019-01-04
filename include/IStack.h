@@ -10,21 +10,21 @@ protected:
     ILinkedList<T> *_linkedList = nullptr;
 
 public:
-    virtual unsigned int get_depth() = 0;
+    virtual unsigned int GetDepth() = 0;
 
-    virtual bool is_empty() = 0;
+    virtual bool IsEmpty() = 0;
 
-    virtual void print_all() = 0;
+    virtual void PrintAll() = 0;
 
-    virtual void push(Node<T> *node) = 0;
+    virtual void Push(Node<T> *node) = 0;
 
-    virtual void push(T item) = 0;
+    virtual void Push(T item) = 0;
 
-    virtual void pop() = 0;
+    virtual void Pop() = 0;
 
-    virtual void clear() = 0;
+    virtual void Clear() = 0;
 
-    virtual T peek() = 0;
+    virtual T Peek() = 0;
 
 };
 

@@ -13,10 +13,10 @@ public:
     Queue(ILinkedList<T> *linkedList)
     {this->linkedList = linkedList;}
 
-    void enqueue(T item) override
+    void Enqueue(T item) override
     { this->linkedList->AddFirst(item); }
 
-    void dequeue() override
+    void Dequeue() override
     {
 
         try {
@@ -28,7 +28,7 @@ public:
         }
     }
 
-    T get_next_item() override
+    T GetNextItem() override
     {
 
         try {
@@ -45,7 +45,7 @@ public:
 
     }
 
-    void clear() override
+    void Clear() override
     {
 
         try {

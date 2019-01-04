@@ -11,13 +11,13 @@ private:
 
 public:
 
-    unsigned int get_depth() override
+    unsigned int GetDepth() override
     { return _capacity; }
 
-    bool is_empty() override
+    bool IsEmpty() override
     { return _capacity == 0; }
 
-    void print_all() override
+    void PrintAll() override
     {
         unsigned int i = 0;
 
@@ -27,7 +27,7 @@ public:
         }
     }
 
-    void push(T item) override
+    void Push(T item) override
     {
         unsigned int newCapacity = ++_capacity;
 
@@ -46,12 +46,12 @@ public:
         delete (newArray);
     }
 
-    void push(Node<T> *node) override
-    { push(node->get_value()); }
+    void Push(Node<T> *node) override
+    { Push(node->get_value()); }
 
-    void pop() override
+    void Pop() override
     {
-        if (is_empty())
+        if (IsEmpty())
             return;
 
         unsigned int newCapacity = --_capacity;
@@ -70,7 +70,7 @@ public:
         delete (newArray);
     }
 
-    void clear() override
+    void Clear() override
     {
         _capacity = 0;
         _items = nullptr;
@@ -79,6 +79,6 @@ public:
         _items = new T[0];
     }
 
-    T peek() override
+    T Peek() override
     { return _items[0]; }
 };

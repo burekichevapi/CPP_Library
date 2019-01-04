@@ -282,6 +282,9 @@ CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o
  ../include/IStack.h
  ../include/Node.h
  /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayStack.cpp
+CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o
+ ../include/ConsoleManagement.h
+ /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o
  ../include/ILinkedList.h
  ../include/Node.h
@@ -306,6 +309,3 @@ CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o
  ../include/IStack.h
  ../include/Node.h
  /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Stack.cpp
-CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o
- ../include/console_management.h
- /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/console_management.cpp

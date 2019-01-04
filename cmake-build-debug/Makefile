@@ -437,6 +437,33 @@ src/ArrayStack.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.s
 .PHONY : src/ArrayStack.cpp.s
 
+src/ConsoleManagement.o: src/ConsoleManagement.cpp.o
+
+.PHONY : src/ConsoleManagement.o
+
+# target to build an object file
+src/ConsoleManagement.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o
+.PHONY : src/ConsoleManagement.cpp.o
+
+src/ConsoleManagement.i: src/ConsoleManagement.cpp.i
+
+.PHONY : src/ConsoleManagement.i
+
+# target to preprocess a source file
+src/ConsoleManagement.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.i
+.PHONY : src/ConsoleManagement.cpp.i
+
+src/ConsoleManagement.s: src/ConsoleManagement.cpp.s
+
+.PHONY : src/ConsoleManagement.s
+
+# target to generate assembly for a file
+src/ConsoleManagement.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.s
+.PHONY : src/ConsoleManagement.cpp.s
+
 src/DoublyLinkedList.o: src/DoublyLinkedList.cpp.o
 
 .PHONY : src/DoublyLinkedList.o
@@ -599,33 +626,6 @@ src/Stack.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Stack.cpp.s
 .PHONY : src/Stack.cpp.s
 
-src/console_management.o: src/console_management.cpp.o
-
-.PHONY : src/console_management.o
-
-# target to build an object file
-src/console_management.cpp.o:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o
-.PHONY : src/console_management.cpp.o
-
-src/console_management.i: src/console_management.cpp.i
-
-.PHONY : src/console_management.i
-
-# target to preprocess a source file
-src/console_management.cpp.i:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/console_management.cpp.i
-.PHONY : src/console_management.cpp.i
-
-src/console_management.s: src/console_management.cpp.s
-
-.PHONY : src/console_management.s
-
-# target to generate assembly for a file
-src/console_management.cpp.s:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/console_management.cpp.s
-.PHONY : src/console_management.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -667,6 +667,9 @@ help:
 	@echo "... src/ArrayStack.o"
 	@echo "... src/ArrayStack.i"
 	@echo "... src/ArrayStack.s"
+	@echo "... src/ConsoleManagement.o"
+	@echo "... src/ConsoleManagement.i"
+	@echo "... src/ConsoleManagement.s"
 	@echo "... src/DoublyLinkedList.o"
 	@echo "... src/DoublyLinkedList.i"
 	@echo "... src/DoublyLinkedList.s"
@@ -685,9 +688,6 @@ help:
 	@echo "... src/Stack.o"
 	@echo "... src/Stack.i"
 	@echo "... src/Stack.s"
-	@echo "... src/console_management.o"
-	@echo "... src/console_management.i"
-	@echo "... src/console_management.s"
 .PHONY : help
 
 

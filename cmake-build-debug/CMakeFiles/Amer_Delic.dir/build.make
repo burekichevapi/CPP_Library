@@ -96,9 +96,22 @@ CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayStack.cpp" -o CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.s
 
+CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
+CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o: ../src/ConsoleManagement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp"
+
+CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp" > CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.i
+
+CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp" -o CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.s
+
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: ../src/DoublyLinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/DoublyLinkedList.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o: ../src/FileManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/FileManager.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o: ../src/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedList.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o: ../src/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Node.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/Node.cpp.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Node.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/Amer_Delic.dir/src/Node.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../src/Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Queue.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/Amer_Delic.dir/src/Queue.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../src/Stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Stack.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.i: cmake_force
@@ -173,19 +186,6 @@ CMakeFiles/Amer_Delic.dir/src/Stack.cpp.i: cmake_force
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Amer_Delic.dir/src/Stack.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Stack.cpp" -o CMakeFiles/Amer_Delic.dir/src/Stack.cpp.s
-
-CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
-CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o: ../src/console_management.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/console_management.cpp"
-
-CMakeFiles/Amer_Delic.dir/src/console_management.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Amer_Delic.dir/src/console_management.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/console_management.cpp" > CMakeFiles/Amer_Delic.dir/src/console_management.cpp.i
-
-CMakeFiles/Amer_Delic.dir/src/console_management.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Amer_Delic.dir/src/console_management.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/console_management.cpp" -o CMakeFiles/Amer_Delic.dir/src/console_management.cpp.s
 
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o: ../Tests/LinkedList_Tests.cpp
@@ -257,13 +257,13 @@ Amer_Delic_OBJECTS = \
 "CMakeFiles/Amer_Delic.dir/main.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o" \
+"CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/Node.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o" \
-"CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.o" \
@@ -276,13 +276,13 @@ Amer_Delic_EXTERNAL_OBJECTS =
 Amer_Delic: CMakeFiles/Amer_Delic.dir/main.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o
+Amer_Delic: CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/Node.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o
-Amer_Delic: CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/Tests/ArrayStack_Tests.cpp.o

@@ -192,7 +192,7 @@ class MaxBipartiteMatchState {
       // right node irhs to the sink, so we can use that to finish this
       // flow path and return success.
       //
-      // Otherwise there is residual flow to some ilhs. We push flow
+      // Otherwise there is residual flow to some ilhs. We Push flow
       // along that path and call ourselves recursively to see if this
       // ultimately leads to sink.
       if (right_[irhs] == kUnused || TryAugment(right_[irhs], seen)) {

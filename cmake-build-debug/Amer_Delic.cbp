@@ -376,6 +376,9 @@
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayStack.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
+		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/DoublyLinkedList.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
@@ -392,9 +395,6 @@
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Stack.cpp">
-			<Option target="Amer_Delic"/>
-		</Unit>
-		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/console_management.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/CMakeLists.txt">

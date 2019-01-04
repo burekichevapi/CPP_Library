@@ -282,6 +282,9 @@ CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o: ../include/IStack.h
 CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o: ../src/ArrayStack.cpp
 
+CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o: ../include/ConsoleManagement.h
+CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o: ../src/ConsoleManagement.cpp
+
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: ../include/ILinkedList.h
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o: ../src/DoublyLinkedList.cpp
@@ -305,7 +308,4 @@ CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/ILinkedList.h
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/IStack.h
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../src/Stack.cpp
-
-CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o: ../include/console_management.h
-CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o: ../src/console_management.cpp
 

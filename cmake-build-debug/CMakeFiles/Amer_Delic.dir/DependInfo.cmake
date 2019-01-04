@@ -12,13 +12,13 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/main.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/main.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayLinkedList.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayStack.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayStack.cpp.o"
+  "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/DoublyLinkedList.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/FileManager.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedList.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Node.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Node.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Queue.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o"
   "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Stack.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o"
-  "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/console_management.cpp" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/console_management.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
