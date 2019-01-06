@@ -5,7 +5,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include "ILinkedList.h"
-#include "../src/ArrayLinkedList.cpp"
+#include "../src/LinkedLists/ArrayLinkedList.cpp"
 
 class ArrayLinkedList_Tests : public testing::Test
 {

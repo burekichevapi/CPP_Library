@@ -1,15 +1,17 @@
 //
 // Created by amer on 12/31/18.
 //
-
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include "IStack.h"
 #include "../src/Stack.cpp"
-#include "../src/LinkedList.cpp"
+#include "../src/LinkedLists/LinkedList.cpp"
+#include "LinkedList_Mock.cpp"
 
 class Stack_Tests : public testing::Test
 {
+    testing::
+    NiceMock<LinkedList_Mock<long long int>> ll_MOCK;
 protected:
     void push2and3(IStack<long long int> *stackNum )
     {
@@ -22,7 +24,7 @@ public:
 
     virtual void SetUp()
     {
-        auto *ll = new LinkedList<long long int>(1);
+        auto *ll = new LinkedList_Mock<long long int>(1);
         stackNum = new Stack<long long int>(ll);
     }
 

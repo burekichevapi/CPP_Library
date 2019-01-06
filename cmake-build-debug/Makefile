@@ -275,6 +275,33 @@ Tests/DoublyLinkedList_Tests.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.s
 .PHONY : Tests/DoublyLinkedList_Tests.cpp.s
 
+Tests/LinkedList_Mock.o: Tests/LinkedList_Mock.cpp.o
+
+.PHONY : Tests/LinkedList_Mock.o
+
+# target to build an object file
+Tests/LinkedList_Mock.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.o
+.PHONY : Tests/LinkedList_Mock.cpp.o
+
+Tests/LinkedList_Mock.i: Tests/LinkedList_Mock.cpp.i
+
+.PHONY : Tests/LinkedList_Mock.i
+
+# target to preprocess a source file
+Tests/LinkedList_Mock.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.i
+.PHONY : Tests/LinkedList_Mock.cpp.i
+
+Tests/LinkedList_Mock.s: Tests/LinkedList_Mock.cpp.s
+
+.PHONY : Tests/LinkedList_Mock.s
+
+# target to generate assembly for a file
+Tests/LinkedList_Mock.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.s
+.PHONY : Tests/LinkedList_Mock.cpp.s
+
 Tests/LinkedList_Tests.o: Tests/LinkedList_Tests.cpp.o
 
 .PHONY : Tests/LinkedList_Tests.o
@@ -356,87 +383,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/ArrayLinkedList.o: src/ArrayLinkedList.cpp.o
-
-.PHONY : src/ArrayLinkedList.o
-
-# target to build an object file
-src/ArrayLinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o
-.PHONY : src/ArrayLinkedList.cpp.o
-
-src/ArrayLinkedList.i: src/ArrayLinkedList.cpp.i
-
-.PHONY : src/ArrayLinkedList.i
-
-# target to preprocess a source file
-src/ArrayLinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.i
-.PHONY : src/ArrayLinkedList.cpp.i
-
-src/ArrayLinkedList.s: src/ArrayLinkedList.cpp.s
-
-.PHONY : src/ArrayLinkedList.s
-
-# target to generate assembly for a file
-src/ArrayLinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.s
-.PHONY : src/ArrayLinkedList.cpp.s
-
-src/ConsoleManagement.o: src/ConsoleManagement.cpp.o
-
-.PHONY : src/ConsoleManagement.o
-
-# target to build an object file
-src/ConsoleManagement.cpp.o:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o
-.PHONY : src/ConsoleManagement.cpp.o
-
-src/ConsoleManagement.i: src/ConsoleManagement.cpp.i
-
-.PHONY : src/ConsoleManagement.i
-
-# target to preprocess a source file
-src/ConsoleManagement.cpp.i:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.i
-.PHONY : src/ConsoleManagement.cpp.i
-
-src/ConsoleManagement.s: src/ConsoleManagement.cpp.s
-
-.PHONY : src/ConsoleManagement.s
-
-# target to generate assembly for a file
-src/ConsoleManagement.cpp.s:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.s
-.PHONY : src/ConsoleManagement.cpp.s
-
-src/DoublyLinkedList.o: src/DoublyLinkedList.cpp.o
-
-.PHONY : src/DoublyLinkedList.o
-
-# target to build an object file
-src/DoublyLinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o
-.PHONY : src/DoublyLinkedList.cpp.o
-
-src/DoublyLinkedList.i: src/DoublyLinkedList.cpp.i
-
-.PHONY : src/DoublyLinkedList.i
-
-# target to preprocess a source file
-src/DoublyLinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.i
-.PHONY : src/DoublyLinkedList.cpp.i
-
-src/DoublyLinkedList.s: src/DoublyLinkedList.cpp.s
-
-.PHONY : src/DoublyLinkedList.s
-
-# target to generate assembly for a file
-src/DoublyLinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.s
-.PHONY : src/DoublyLinkedList.cpp.s
-
 src/FileManager.o: src/FileManager.cpp.o
 
 .PHONY : src/FileManager.o
@@ -464,32 +410,86 @@ src/FileManager.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.s
 .PHONY : src/FileManager.cpp.s
 
-src/LinkedList.o: src/LinkedList.cpp.o
+src/LinkedLists/ArrayLinkedList.o: src/LinkedLists/ArrayLinkedList.cpp.o
 
-.PHONY : src/LinkedList.o
+.PHONY : src/LinkedLists/ArrayLinkedList.o
 
 # target to build an object file
-src/LinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o
-.PHONY : src/LinkedList.cpp.o
+src/LinkedLists/ArrayLinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/ArrayLinkedList.cpp.o
+.PHONY : src/LinkedLists/ArrayLinkedList.cpp.o
 
-src/LinkedList.i: src/LinkedList.cpp.i
+src/LinkedLists/ArrayLinkedList.i: src/LinkedLists/ArrayLinkedList.cpp.i
 
-.PHONY : src/LinkedList.i
+.PHONY : src/LinkedLists/ArrayLinkedList.i
 
 # target to preprocess a source file
-src/LinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.i
-.PHONY : src/LinkedList.cpp.i
+src/LinkedLists/ArrayLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/ArrayLinkedList.cpp.i
+.PHONY : src/LinkedLists/ArrayLinkedList.cpp.i
 
-src/LinkedList.s: src/LinkedList.cpp.s
+src/LinkedLists/ArrayLinkedList.s: src/LinkedLists/ArrayLinkedList.cpp.s
 
-.PHONY : src/LinkedList.s
+.PHONY : src/LinkedLists/ArrayLinkedList.s
 
 # target to generate assembly for a file
-src/LinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.s
-.PHONY : src/LinkedList.cpp.s
+src/LinkedLists/ArrayLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/ArrayLinkedList.cpp.s
+.PHONY : src/LinkedLists/ArrayLinkedList.cpp.s
+
+src/LinkedLists/DoublyLinkedList.o: src/LinkedLists/DoublyLinkedList.cpp.o
+
+.PHONY : src/LinkedLists/DoublyLinkedList.o
+
+# target to build an object file
+src/LinkedLists/DoublyLinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/DoublyLinkedList.cpp.o
+.PHONY : src/LinkedLists/DoublyLinkedList.cpp.o
+
+src/LinkedLists/DoublyLinkedList.i: src/LinkedLists/DoublyLinkedList.cpp.i
+
+.PHONY : src/LinkedLists/DoublyLinkedList.i
+
+# target to preprocess a source file
+src/LinkedLists/DoublyLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/DoublyLinkedList.cpp.i
+.PHONY : src/LinkedLists/DoublyLinkedList.cpp.i
+
+src/LinkedLists/DoublyLinkedList.s: src/LinkedLists/DoublyLinkedList.cpp.s
+
+.PHONY : src/LinkedLists/DoublyLinkedList.s
+
+# target to generate assembly for a file
+src/LinkedLists/DoublyLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/DoublyLinkedList.cpp.s
+.PHONY : src/LinkedLists/DoublyLinkedList.cpp.s
+
+src/LinkedLists/LinkedList.o: src/LinkedLists/LinkedList.cpp.o
+
+.PHONY : src/LinkedLists/LinkedList.o
+
+# target to build an object file
+src/LinkedLists/LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.o
+.PHONY : src/LinkedLists/LinkedList.cpp.o
+
+src/LinkedLists/LinkedList.i: src/LinkedLists/LinkedList.cpp.i
+
+.PHONY : src/LinkedLists/LinkedList.i
+
+# target to preprocess a source file
+src/LinkedLists/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.i
+.PHONY : src/LinkedLists/LinkedList.cpp.i
+
+src/LinkedLists/LinkedList.s: src/LinkedLists/LinkedList.cpp.s
+
+.PHONY : src/LinkedLists/LinkedList.s
+
+# target to generate assembly for a file
+src/LinkedLists/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.s
+.PHONY : src/LinkedLists/LinkedList.cpp.s
 
 src/Node.o: src/Node.cpp.o
 
@@ -572,6 +572,33 @@ src/Stack.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Stack.cpp.s
 .PHONY : src/Stack.cpp.s
 
+src/Utilities/ConsoleManagement.o: src/Utilities/ConsoleManagement.cpp.o
+
+.PHONY : src/Utilities/ConsoleManagement.o
+
+# target to build an object file
+src/Utilities/ConsoleManagement.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o
+.PHONY : src/Utilities/ConsoleManagement.cpp.o
+
+src/Utilities/ConsoleManagement.i: src/Utilities/ConsoleManagement.cpp.i
+
+.PHONY : src/Utilities/ConsoleManagement.i
+
+# target to preprocess a source file
+src/Utilities/ConsoleManagement.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.i
+.PHONY : src/Utilities/ConsoleManagement.cpp.i
+
+src/Utilities/ConsoleManagement.s: src/Utilities/ConsoleManagement.cpp.s
+
+.PHONY : src/Utilities/ConsoleManagement.s
+
+# target to generate assembly for a file
+src/Utilities/ConsoleManagement.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.s
+.PHONY : src/Utilities/ConsoleManagement.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -595,6 +622,9 @@ help:
 	@echo "... Tests/DoublyLinkedList_Tests.o"
 	@echo "... Tests/DoublyLinkedList_Tests.i"
 	@echo "... Tests/DoublyLinkedList_Tests.s"
+	@echo "... Tests/LinkedList_Mock.o"
+	@echo "... Tests/LinkedList_Mock.i"
+	@echo "... Tests/LinkedList_Mock.s"
 	@echo "... Tests/LinkedList_Tests.o"
 	@echo "... Tests/LinkedList_Tests.i"
 	@echo "... Tests/LinkedList_Tests.s"
@@ -604,21 +634,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/ArrayLinkedList.o"
-	@echo "... src/ArrayLinkedList.i"
-	@echo "... src/ArrayLinkedList.s"
-	@echo "... src/ConsoleManagement.o"
-	@echo "... src/ConsoleManagement.i"
-	@echo "... src/ConsoleManagement.s"
-	@echo "... src/DoublyLinkedList.o"
-	@echo "... src/DoublyLinkedList.i"
-	@echo "... src/DoublyLinkedList.s"
 	@echo "... src/FileManager.o"
 	@echo "... src/FileManager.i"
 	@echo "... src/FileManager.s"
-	@echo "... src/LinkedList.o"
-	@echo "... src/LinkedList.i"
-	@echo "... src/LinkedList.s"
+	@echo "... src/LinkedLists/ArrayLinkedList.o"
+	@echo "... src/LinkedLists/ArrayLinkedList.i"
+	@echo "... src/LinkedLists/ArrayLinkedList.s"
+	@echo "... src/LinkedLists/DoublyLinkedList.o"
+	@echo "... src/LinkedLists/DoublyLinkedList.i"
+	@echo "... src/LinkedLists/DoublyLinkedList.s"
+	@echo "... src/LinkedLists/LinkedList.o"
+	@echo "... src/LinkedLists/LinkedList.i"
+	@echo "... src/LinkedLists/LinkedList.s"
 	@echo "... src/Node.o"
 	@echo "... src/Node.i"
 	@echo "... src/Node.s"
@@ -628,6 +655,9 @@ help:
 	@echo "... src/Stack.o"
 	@echo "... src/Stack.i"
 	@echo "... src/Stack.s"
+	@echo "... src/Utilities/ConsoleManagement.o"
+	@echo "... src/Utilities/ConsoleManagement.i"
+	@echo "... src/Utilities/ConsoleManagement.s"
 .PHONY : help
 
 

@@ -9,15 +9,17 @@ include_directories(lib/googletest-master/googlemock/include)
 include_directories(include)
 
 file(GLOB SOURCE_FILES
+        main.cpp
         "src/*.cpp"
-        ArrayLinkedList.cpp
-        main.cpp)
+        "src/LinkedLists/*.cpp"
+        "src/Utilities/*.cpp"
+        )
 
 set(TEST_FILES
         Tests/LinkedList_Tests.cpp
         Tests/DoublyLinkedList_Tests.cpp
         Tests/Stack_Tests.cpp
-        Tests/ArrayLinkedList_Tests.cpp)
+        Tests/ArrayLinkedList_Tests.cpp Tests/LinkedList_Mock.cpp)
 
 add_executable(Amer_Delic ${SOURCE_FILES} ${TEST_FILES})
 

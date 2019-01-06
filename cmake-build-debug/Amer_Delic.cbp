@@ -346,6 +346,9 @@
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
+		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/LinkedList_Mock.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
@@ -367,19 +370,16 @@
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/main.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
-		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ArrayLinkedList.cpp">
-			<Option target="Amer_Delic"/>
-		</Unit>
-		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/ConsoleManagement.cpp">
-			<Option target="Amer_Delic"/>
-		</Unit>
-		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/DoublyLinkedList.cpp">
-			<Option target="Amer_Delic"/>
-		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/FileManager.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
-		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedList.cpp">
+		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedLists/ArrayLinkedList.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
+		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedLists/DoublyLinkedList.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
+		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/LinkedLists/LinkedList.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Node.cpp">
@@ -389,6 +389,9 @@
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Stack.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
+		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/src/Utilities/ConsoleManagement.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
 		<Unit filename="/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/CMakeLists.txt">

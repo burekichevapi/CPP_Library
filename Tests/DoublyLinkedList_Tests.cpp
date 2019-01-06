@@ -5,7 +5,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include "ILinkedList.h"
-#include "../src/DoublyLinkedList.cpp"
+#include "../src/LinkedLists/DoublyLinkedList.cpp"
 #include "../src/Node.cpp"
 
 class DoublyLinkedList_Tests : public testing::Test
