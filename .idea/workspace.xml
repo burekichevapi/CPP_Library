@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Amer_Delic" targetName="gtest" />
-      <config projectName="Amer_Delic" targetName="gmock" />
-      <config projectName="Amer_Delic" targetName="Amer_Delic" />
-      <config projectName="Amer_Delic" targetName="gtest_main" />
       <config projectName="Amer_Delic" targetName="gmock_main" />
+      <config projectName="Amer_Delic" targetName="gmock" />
+      <config projectName="Amer_Delic" targetName="gtest_main" />
+      <config projectName="Amer_Delic" targetName="Amer_Delic" />
+      <config projectName="Amer_Delic" targetName="gtest" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/ArrayLinkedList_Tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/ArrayLinkedList_Tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/DoublyLinkedList_Tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/LinkedList_Mock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LinkedList_Mock.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/LinkedList_Tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LinkedList_Tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Stack_Tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Stack_Tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Amer_Delic.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Amer_Delic.cbp" afterDir="false" />
@@ -39,6 +40,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/build.make" afterDir="false" />
@@ -49,14 +51,14 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ArrayLinkedList.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/ConsoleManagement.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/DoublyLinkedList.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/LinkedList.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/LinkedLists/ArrayLinkedList.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/LinkedLists/DoublyLinkedList.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Node.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
@@ -144,7 +146,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/gtest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googlemock/gtest/gtest.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest-master/googletest-distribution.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgmock_maind.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgmock_maind.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgmockd.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgmockd.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest_maind.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest_maind.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgtestd.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgtestd.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libAmer_Delic.so" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libAmer_Delic.so" afterDir="false" />
@@ -488,14 +489,14 @@
       <change beforePath="$PROJECT_DIR$/lib/googletest-master/library.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/googletest-master/library.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/googletest-master/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/lib/googletest-master/platformio.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayLinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsoleManagement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleManagement.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/ArrayLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/ArrayLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/DoublyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/DoublyLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/LinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/ConsoleManagement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/ConsoleManagement.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -512,11 +513,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5641026">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Tests/Stack_Tests.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+                <state relative-caret-position="286">
+                  <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
                   <folding>
                     <element signature="e#38#62#0" expanded="true" />
                   </folding>
@@ -524,11 +525,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#39#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Tests/LinkedList_Mock.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
                   <folding>
                     <element signature="e#0#24#0" expanded="true" />
                     <element signature="e#85#94#0" expanded="true" />
@@ -540,12 +553,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/include/ILinkedList.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="42" />
+                <state relative-caret-position="499">
+                  <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -586,7 +599,6 @@
         <option value="$PROJECT_DIR$/include/ArrayStack.h" />
         <option value="$PROJECT_DIR$/include/amer_delic_library.h" />
         <option value="$PROJECT_DIR$/src/NoStoredValuesException.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/include/NoStoredValuesException.h" />
         <option value="$PROJECT_DIR$/include/OutOfRangeException.h" />
         <option value="$PROJECT_DIR$/Tests/LinkedList_Tests.cpp" />
@@ -608,14 +620,16 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Tests/Queue_Tests.cpp" />
         <option value="$PROJECT_DIR$/Tests/LinkedList_Mock.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Tests/Stack_Tests.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="823" />
-    <option name="width" value="1095" />
-    <option name="height" value="1051" />
+    <option name="x" value="1800" />
+    <option name="y" value="117" />
+    <option name="width" value="1640" />
+    <option name="height" value="1368" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -802,10 +816,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="823" y="0" width="1095" height="1051" extended-state="0" />
+    <frame x="1800" y="117" width="1640" height="1368" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931693" visible="true" weight="0.18207817" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931693" visible="true" weight="0.12358846" />
       <window_info id="Structure" order="1" sideWeight="0.50068307" side_tool="true" weight="0.16016641" />
       <window_info id="Favorites" order="2" sideWeight="0.50068307" side_tool="true" weight="0.16016641" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -816,7 +830,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294956" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49849623" visible="true" weight="0.26138827" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49849623" visible="true" weight="0.26115167" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294956" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50150377" side_tool="true" weight="0.2713816" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49849623" weight="0.32730263" />
@@ -879,16 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1212">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#39#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,40 +1094,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Queue_Tests.cpp">
+    <entry file="file://$PROJECT_DIR$/Tests/Queue_Tests.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#39#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/ILinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Stack_Tests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="e#38#62#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="499">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/LinkedList_Mock.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
             <element signature="e#85#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Stack_Tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="e#38#62#0" expanded="true" />
           </folding>
         </state>
       </provider>

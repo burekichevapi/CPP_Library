@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/lib/googletest-master/googlemock/include" -I"/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/include" -isystem "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/lib/googletest-master/googletest/include" -isystem "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/lib/googletest-master/googletest" 
+CXX_INCLUDES = -I"/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/lib/googletest-master/googlemock/include" -I"/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/include" -isystem "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/lib/googletest-master/googletest/include" -isystem "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/lib/googletest-master/googletest" 
 
