@@ -14,7 +14,7 @@ public:
     {this->linkedList = linkedList;}
 
     void Enqueue(T item) override
-    { this->linkedList->AddFirst(item); }
+    { this->linkedList->AddLast(item); }
 
     void Dequeue() override
     {
