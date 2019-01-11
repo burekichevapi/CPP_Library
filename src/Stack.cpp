@@ -14,7 +14,7 @@ public:
     bool IsEmpty() override
     { return GetDepth() == 0; }
 
-    void PrintAll() override
+    void PrintAll()
     {
         try
         {

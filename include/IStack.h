@@ -14,8 +14,6 @@ public:
 
     virtual bool IsEmpty() = 0;
 
-    virtual void PrintAll() = 0;
-
     virtual void Push(Node<T> *node) = 0;
 
     virtual void Push(T item) = 0;

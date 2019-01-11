@@ -135,9 +135,22 @@ CMakeFiles/Amer_Delic.dir/src/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Amer_Delic.dir/src/Node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp" -o CMakeFiles/Amer_Delic.dir/src/Node.cpp.s
 
+CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
+CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o: ../src/PriorityQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/PriorityQueue.cpp"
+
+CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/PriorityQueue.cpp" > CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.i
+
+CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/PriorityQueue.cpp" -o CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.s
+
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../src/Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Queue.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/Amer_Delic.dir/src/Queue.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o: ../src/Stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/Stack.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/Amer_Delic.dir/src/Stack.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o: ../src/Utilities/ConsoleManagement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Utilities/ConsoleManagement.cpp"
 
 CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o: ../Tests/LinkedList_Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp"
 
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o: ../Tests/DoublyLinkedList_Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp"
 
 CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/Amer_Delic.dir/Tests/DoublyLinkedList_Tests.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o: ../Tests/Stack_Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/Stack_Tests.cpp"
 
 CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/Amer_Delic.dir/Tests/Stack_Tests.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o: ../Tests/ArrayLinkedList_Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ArrayLinkedList_Tests.cpp"
 
 CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.s: cmake_force
 
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.o: CMakeFiles/Amer_Delic.dir/flags.make
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.o: ../Tests/LinkedList_Mock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.o -c "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Mock.cpp"
 
 CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.i: cmake_force
@@ -247,6 +260,7 @@ Amer_Delic_OBJECTS = \
 "CMakeFiles/Amer_Delic.dir/src/LinkedLists/DoublyLinkedList.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/Node.cpp.o" \
+"CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o" \
 "CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o" \
@@ -265,6 +279,7 @@ Amer_Delic: CMakeFiles/Amer_Delic.dir/src/LinkedLists/ArrayLinkedList.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/LinkedLists/DoublyLinkedList.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/Node.cpp.o
+Amer_Delic: CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o
 Amer_Delic: CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o
@@ -278,7 +293,7 @@ Amer_Delic: lib/libgtestd.a
 Amer_Delic: lib/libgtest_maind.a
 Amer_Delic: lib/libgtestd.a
 Amer_Delic: CMakeFiles/Amer_Delic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Amer_Delic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Amer_Delic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Amer_Delic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

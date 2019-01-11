@@ -25,6 +25,12 @@ public:
     bool IsEmpty()
     { return _size == 0; }
 
+    Node<T> *GetHeadPointer()
+    {return this->_head; }
+
+    void IncreaseSize()
+    { _size++; }
+
     virtual unsigned int GetSize() = 0;
 
     virtual void PrintAll() = 0;
@@ -50,6 +56,8 @@ public:
     virtual T GetHeadValue() = 0;
 
     virtual T GetTailValue() = 0;
+
+    virtual void InsertAt(unsigned int index, T item) = 0;
 };
 
 #endif //AMER_DELIC_ILINKEDLIST_H

@@ -159,4 +159,23 @@ public:
 
         return this->_items[this->_size-1];
     }
+
+    void InsertAt(unsigned int index, T item) override
+    {
+        if(index > this->_size || index < 0)
+            throw std::out_of_range("Index is out of range.");
+
+        T *newArray = new T[++this->_size];
+        int i = 0;
+
+        for(i; i < index; i++)
+            newArray[i] = this->_items[i];
+
+        newArray[i++] = item;
+
+        for(i; i < this->_size; i++)
+            newArray[i] = this->_items[i-1];
+
+        this->_items = newArray;
+    }
 };

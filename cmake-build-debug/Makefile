@@ -518,6 +518,33 @@ src/Node.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Node.cpp.s
 .PHONY : src/Node.cpp.s
 
+src/PriorityQueue.o: src/PriorityQueue.cpp.o
+
+.PHONY : src/PriorityQueue.o
+
+# target to build an object file
+src/PriorityQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o
+.PHONY : src/PriorityQueue.cpp.o
+
+src/PriorityQueue.i: src/PriorityQueue.cpp.i
+
+.PHONY : src/PriorityQueue.i
+
+# target to preprocess a source file
+src/PriorityQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.i
+.PHONY : src/PriorityQueue.cpp.i
+
+src/PriorityQueue.s: src/PriorityQueue.cpp.s
+
+.PHONY : src/PriorityQueue.s
+
+# target to generate assembly for a file
+src/PriorityQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.s
+.PHONY : src/PriorityQueue.cpp.s
+
 src/Queue.o: src/Queue.cpp.o
 
 .PHONY : src/Queue.o
@@ -649,6 +676,9 @@ help:
 	@echo "... src/Node.o"
 	@echo "... src/Node.i"
 	@echo "... src/Node.s"
+	@echo "... src/PriorityQueue.o"
+	@echo "... src/PriorityQueue.i"
+	@echo "... src/PriorityQueue.s"
 	@echo "... src/Queue.o"
 	@echo "... src/Queue.i"
 	@echo "... src/Queue.s"

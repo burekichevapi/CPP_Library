@@ -290,6 +290,11 @@ CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.o: ../src/LinkedLists/L
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o: ../include/Node.h
 CMakeFiles/Amer_Delic.dir/src/Node.cpp.o: ../src/Node.cpp
 
+CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o: ../include/ILinkedList.h
+CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o: ../include/IQueue.h
+CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o: ../include/Node.h
+CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o: ../src/PriorityQueue.cpp
+
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/ILinkedList.h
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/IQueue.h
 CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o: ../include/Node.h

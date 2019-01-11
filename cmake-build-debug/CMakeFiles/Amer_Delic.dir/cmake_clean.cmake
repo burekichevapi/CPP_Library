@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Amer_Delic.dir/src/LinkedLists/DoublyLinkedList.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/Node.cpp.o"
+  "CMakeFiles/Amer_Delic.dir/src/PriorityQueue.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/Queue.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/Stack.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/Utilities/ConsoleManagement.cpp.o"

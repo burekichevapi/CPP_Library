@@ -216,4 +216,26 @@ public:
 
         return this->_tail->GetValue();
     }
+
+    void InsertAt(unsigned int index, T item) override
+    {
+        if(index > this->_size || index < 0)
+            throw std::out_of_range("Index is out of range.");
+
+        if(index == 0)
+        {
+            AddFirst(item);
+            return;
+        }
+
+        auto *current = this->_head;
+
+        for(unsigned int i = 1; i < index; i++)
+            current = current->GetNextNode();
+
+        auto *temp = current;
+        current = new Node<T>(item);
+        current->SetNextNode(temp->GetNextNode());
+        temp->SetNextNode(current);
+    }
 };
