@@ -21,6 +21,12 @@ public:
 
     Node *GetPreviousNode();
     void SerPreviousNode(Node *node);
+
+    Node *GetLeftNode();
+    void SetLeftNode(Node *node);
+
+    Node *GetRightNode();
+    void SetRightNode(Node *node);
 };
 
 

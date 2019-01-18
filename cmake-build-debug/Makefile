@@ -383,6 +383,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/BinaryTree.o: src/BinaryTree.cpp.o
+
+.PHONY : src/BinaryTree.o
+
+# target to build an object file
+src/BinaryTree.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/BinaryTree.cpp.o
+.PHONY : src/BinaryTree.cpp.o
+
+src/BinaryTree.i: src/BinaryTree.cpp.i
+
+.PHONY : src/BinaryTree.i
+
+# target to preprocess a source file
+src/BinaryTree.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/BinaryTree.cpp.i
+.PHONY : src/BinaryTree.cpp.i
+
+src/BinaryTree.s: src/BinaryTree.cpp.s
+
+.PHONY : src/BinaryTree.s
+
+# target to generate assembly for a file
+src/BinaryTree.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/BinaryTree.cpp.s
+.PHONY : src/BinaryTree.cpp.s
+
 src/FileManager.o: src/FileManager.cpp.o
 
 .PHONY : src/FileManager.o
@@ -661,6 +688,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/BinaryTree.o"
+	@echo "... src/BinaryTree.i"
+	@echo "... src/BinaryTree.s"
 	@echo "... src/FileManager.o"
 	@echo "... src/FileManager.i"
 	@echo "... src/FileManager.s"

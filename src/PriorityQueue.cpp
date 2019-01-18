@@ -20,7 +20,7 @@ public:
             return;
         }
 
-        auto *current = this->linkedList->GetHeadPointer();
+        auto *current = this->linkedList->GetHeadPointer(); //Don't like this
 
         if(item > current->GetValue())
         {
@@ -37,7 +37,7 @@ public:
         current->SetNextNode(temp->GetNextNode());
         temp->SetNextNode(current);
 
-        this->linkedList->IncreaseSize();
+        this->linkedList->IncreaseSize(); //Don't like this
     }
 
     void Dequeue() override

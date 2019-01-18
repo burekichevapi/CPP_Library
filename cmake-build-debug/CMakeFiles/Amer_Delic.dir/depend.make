@@ -272,6 +272,10 @@ CMakeFiles/Amer_Delic.dir/main.cpp.o: ../lib/googletest-master/googletest/includ
 CMakeFiles/Amer_Delic.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/Amer_Delic.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/Amer_Delic.dir/src/BinaryTree.cpp.o: ../include/IBinaryTree.h
+CMakeFiles/Amer_Delic.dir/src/BinaryTree.cpp.o: ../include/Node.h
+CMakeFiles/Amer_Delic.dir/src/BinaryTree.cpp.o: ../src/BinaryTree.cpp
+
 CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o: ../include/FileManager.h
 CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o: ../src/FileManager.cpp
 

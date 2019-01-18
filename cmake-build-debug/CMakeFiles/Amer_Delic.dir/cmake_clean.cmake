@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Amer_Delic.dir/main.cpp.o"
+  "CMakeFiles/Amer_Delic.dir/src/BinaryTree.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/FileManager.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/LinkedLists/ArrayLinkedList.cpp.o"
   "CMakeFiles/Amer_Delic.dir/src/LinkedLists/DoublyLinkedList.cpp.o"

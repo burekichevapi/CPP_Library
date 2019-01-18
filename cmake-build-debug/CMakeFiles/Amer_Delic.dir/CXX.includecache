@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/IBinaryTree.h
+Node.h
+../include/Node.h
+
 ../include/ILinkedList.h
 Node.h
 ../include/Node.h
@@ -528,6 +532,28 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ArrayLinkedList_Tests.cpp
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+ILinkedList.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ILinkedList.h
+../src/LinkedLists/ArrayLinkedList.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/ArrayLinkedList.cpp
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/DoublyLinkedList_Tests.cpp
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+ILinkedList.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ILinkedList.h
+../src/LinkedLists/DoublyLinkedList.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/DoublyLinkedList.cpp
+../src/Node.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
+
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Mock.cpp
 gtest/gtest.h
 -
@@ -535,6 +561,18 @@ gmock/gmock.h
 -
 ILinkedList.h
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ILinkedList.h
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Tests.cpp
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+ILinkedList.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/ILinkedList.h
+../src/LinkedLists/LinkedList.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/LinkedList.cpp
+../src/Node.cpp
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
 
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/Stack_Tests.cpp
 gtest/gtest.h
@@ -550,6 +588,24 @@ IStack.h
 LinkedList_Mock.cpp
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/Tests/LinkedList_Mock.cpp
 
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/BinaryTree.cpp
+IBinaryTree.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/IBinaryTree.h
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/ArrayLinkedList.cpp
+ILinkedList.h
+-
+iostream
+-
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/DoublyLinkedList.cpp
+iostream
+-
+ILinkedList.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/ILinkedList.h
+Node.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/Node.h
+
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/LinkedList.cpp
 iostream
 -
@@ -558,11 +614,23 @@ ILinkedList.h
 Node.h
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/LinkedLists/Node.h
 
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.cpp
+Node.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Node.h
+
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/PriorityQueue.cpp
 ILinkedList.h
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ILinkedList.h
 IQueue.h
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/IQueue.h
+
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Queue.cpp
+iostream
+-
+IQueue.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/IQueue.h
+ILinkedList.h
+/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/ILinkedList.h
 
 /home/amer/Desktop/Google Drive/My Projects/Amer_Delic/src/Stack.cpp
 iostream

@@ -19,7 +19,7 @@ set(TEST_FILES
         Tests/LinkedList_Tests.cpp
         Tests/DoublyLinkedList_Tests.cpp
         Tests/Stack_Tests.cpp
-        Tests/ArrayLinkedList_Tests.cpp Tests/LinkedList_Mock.cpp src/PriorityQueue.cpp)
+        Tests/ArrayLinkedList_Tests.cpp Tests/LinkedList_Mock.cpp src/PriorityQueue.cpp include/IBinaryTree.h src/BinaryTree.cpp)
 
 add_executable(Amer_Delic ${SOURCE_FILES} ${TEST_FILES})
 
