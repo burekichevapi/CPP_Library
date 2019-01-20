@@ -49,7 +49,7 @@ public:
         delete (newArray);
     }
 
-    void AddFirst(Node<T> *newNode) override
+    void AddFirst(LinkedNode<T> *newNode) override
     { AddFirst(newNode->GetValue()); }
 
     void AddLast(T item) override
@@ -68,7 +68,7 @@ public:
         delete (newArray);
     }
 
-    void AddLast(Node<T> *newNode) override
+    void AddLast(LinkedNode<T> *newNode) override
     { AddLast(newNode->GetValue()); }
 
     void RemoveFirst() override

@@ -1,13 +1,13 @@
 #include <iostream>
 #include "ILinkedList.h"
-#include "Node.h"
+#include "LinkedNode.h"
 
 template <class T>
 class LinkedList : public ILinkedList<T>
 {
 
 public:
-    LinkedList(Node<T> *head)
+    LinkedList(LinkedNode<T> *head)
     {
         this->_head = head;
         this->_tail = head;
@@ -16,7 +16,7 @@ public:
 
     LinkedList(T item)
     {
-        auto *head = new Node<T>(item);
+        auto *head = new LinkedNode<T>(item);
         this->_head = head;
         this->_tail = head;
         this->_size = 1;
@@ -30,7 +30,7 @@ public:
         if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
-        Node<T> *temp = this->_head;
+        LinkedNode<T> *temp = this->_head;
 
         while (true)
         {
@@ -49,7 +49,7 @@ public:
     {
         while(!this->isNull(this->_head))
         {
-            Node<T> *temp = this->_head;
+            LinkedNode<T> *temp = this->_head;
             this->_head = this->_head->GetNextNode();
             temp = nullptr;
             delete(temp);
@@ -59,9 +59,9 @@ public:
 
 
 
-    void AddFirst(Node<T> *newNode) override
+    void AddFirst(LinkedNode<T> *newNode) override
     {
-        Node<T> *temp = this->_head;
+        LinkedNode<T> *temp = this->_head;
         this->_head = newNode;
         this->_head->SetNextNode(temp);
 
@@ -73,11 +73,11 @@ public:
 
     void AddFirst(T item) override
     {
-        auto *newNode = new Node<T>(item);
+        auto *newNode = new LinkedNode<T>(item);
         AddFirst(newNode);
     }
 
-    void AddLast(Node<T> *newNode) override
+    void AddLast(LinkedNode<T> *newNode) override
     {
         if(this->IsEmpty())
         {
@@ -85,7 +85,7 @@ public:
             return;
         }
 
-        Node<T> *temp = this->_tail;
+        LinkedNode<T> *temp = this->_tail;
         temp->SetNextNode(newNode);
         this->_tail = temp->GetNextNode();
 
@@ -97,7 +97,7 @@ public:
 
     void AddLast(T item) override
     {
-        auto *newNode = new Node<T>(item);
+        auto *newNode = new LinkedNode<T>(item);
         AddLast(newNode);
     }
 
@@ -115,7 +115,7 @@ public:
         if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
-        Node<T> *temp = this->_head;
+        LinkedNode<T> *temp = this->_head;
 
         while(temp != this->_tail && temp->GetNextNode() != this->_tail)
             temp = temp->GetNextNode();
@@ -132,7 +132,7 @@ public:
         if(this->IsEmpty())
             return false;
 
-        Node<T> *temp = this->_head;
+        LinkedNode<T> *temp = this->_head;
 
         while(!this->isNull(temp))
         {
@@ -162,8 +162,8 @@ public:
             return;
         }
 
-        Node<T> *previous = this->_head;
-        Node<T> *current = this->_head->GetNextNode();
+        LinkedNode<T> *previous = this->_head;
+        LinkedNode<T> *current = this->_head->GetNextNode();
 
         while(!this->nextIsNull(current))
         {
@@ -214,7 +214,7 @@ public:
             current = current->GetNextNode();
 
         auto *temp = current;
-        current = new Node<T>(item);
+        current = new LinkedNode<T>(item);
         current->SetNextNode(temp->GetNextNode());
         temp->SetNextNode(current);
     }

@@ -33,7 +33,7 @@ public:
             current = current->GetNextNode();
 
         auto *temp = current;
-        current = new Node<T>(item);
+        current = new LinkedNode<T>(item);
         current->SetNextNode(temp->GetNextNode());
         temp->SetNextNode(current);
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic"
+CMAKE_SOURCE_DIR = "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,19 +59,19 @@ CMAKE_BINARY_DIR = "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -82,7 +82,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -103,32 +103,32 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/amer/Documents/CLion-2018.3.2/clion-2018.3.2/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/amer/Desktop/Google Drive/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -518,32 +518,59 @@ src/LinkedLists/LinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/LinkedLists/LinkedList.cpp.s
 .PHONY : src/LinkedLists/LinkedList.cpp.s
 
-src/Node.o: src/Node.cpp.o
+src/Nodes/BinaryNode.o: src/Nodes/BinaryNode.cpp.o
 
-.PHONY : src/Node.o
+.PHONY : src/Nodes/BinaryNode.o
 
 # target to build an object file
-src/Node.cpp.o:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Node.cpp.o
-.PHONY : src/Node.cpp.o
+src/Nodes/BinaryNode.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Nodes/BinaryNode.cpp.o
+.PHONY : src/Nodes/BinaryNode.cpp.o
 
-src/Node.i: src/Node.cpp.i
+src/Nodes/BinaryNode.i: src/Nodes/BinaryNode.cpp.i
 
-.PHONY : src/Node.i
+.PHONY : src/Nodes/BinaryNode.i
 
 # target to preprocess a source file
-src/Node.cpp.i:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Node.cpp.i
-.PHONY : src/Node.cpp.i
+src/Nodes/BinaryNode.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Nodes/BinaryNode.cpp.i
+.PHONY : src/Nodes/BinaryNode.cpp.i
 
-src/Node.s: src/Node.cpp.s
+src/Nodes/BinaryNode.s: src/Nodes/BinaryNode.cpp.s
 
-.PHONY : src/Node.s
+.PHONY : src/Nodes/BinaryNode.s
 
 # target to generate assembly for a file
-src/Node.cpp.s:
-	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Node.cpp.s
-.PHONY : src/Node.cpp.s
+src/Nodes/BinaryNode.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Nodes/BinaryNode.cpp.s
+.PHONY : src/Nodes/BinaryNode.cpp.s
+
+src/Nodes/LinkedNode.o: src/Nodes/LinkedNode.cpp.o
+
+.PHONY : src/Nodes/LinkedNode.o
+
+# target to build an object file
+src/Nodes/LinkedNode.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Nodes/LinkedNode.cpp.o
+.PHONY : src/Nodes/LinkedNode.cpp.o
+
+src/Nodes/LinkedNode.i: src/Nodes/LinkedNode.cpp.i
+
+.PHONY : src/Nodes/LinkedNode.i
+
+# target to preprocess a source file
+src/Nodes/LinkedNode.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Nodes/LinkedNode.cpp.i
+.PHONY : src/Nodes/LinkedNode.cpp.i
+
+src/Nodes/LinkedNode.s: src/Nodes/LinkedNode.cpp.s
+
+.PHONY : src/Nodes/LinkedNode.s
+
+# target to generate assembly for a file
+src/Nodes/LinkedNode.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/src/Nodes/LinkedNode.cpp.s
+.PHONY : src/Nodes/LinkedNode.cpp.s
 
 src/PriorityQueue.o: src/PriorityQueue.cpp.o
 
@@ -703,9 +730,12 @@ help:
 	@echo "... src/LinkedLists/LinkedList.o"
 	@echo "... src/LinkedLists/LinkedList.i"
 	@echo "... src/LinkedLists/LinkedList.s"
-	@echo "... src/Node.o"
-	@echo "... src/Node.i"
-	@echo "... src/Node.s"
+	@echo "... src/Nodes/BinaryNode.o"
+	@echo "... src/Nodes/BinaryNode.i"
+	@echo "... src/Nodes/BinaryNode.s"
+	@echo "... src/Nodes/LinkedNode.o"
+	@echo "... src/Nodes/LinkedNode.i"
+	@echo "... src/Nodes/LinkedNode.s"
 	@echo "... src/PriorityQueue.o"
 	@echo "... src/PriorityQueue.i"
 	@echo "... src/PriorityQueue.s"

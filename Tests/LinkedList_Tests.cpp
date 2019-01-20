@@ -6,7 +6,7 @@
 #include <gmock/gmock.h>
 #include "ILinkedList.h"
 #include "../src/LinkedLists/LinkedList.cpp"
-#include "../src/Node.cpp"
+#include "../src/Nodes/LinkedNode.cpp"
 
 class LinkedList_Tests : public testing::Test
 {

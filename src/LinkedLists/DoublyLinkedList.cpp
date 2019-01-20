@@ -1,21 +1,21 @@
 #include <iostream>
 #include "ILinkedList.h"
-#include "Node.h"
+#include "LinkedNode.h"
 
 template <class T>
 class DoublyLinkedList: public ILinkedList<T>
 {
 
 public:
-    DoublyLinkedList<T>(Node<T> *head, Node<T> *tail)
+    DoublyLinkedList<T>(LinkedNode<T> *head, LinkedNode<T> *tail)
     {
         this->_head = head;
         this->_tail = tail;
 
-        this->_head->SerPreviousNode(this->_previous);
+        this->_head->SetPreviousNode(this->_previous);
         this->_head->SetNextNode(this->_tail);
 
-        this->_tail->SerPreviousNode(this->_head);
+        this->_tail->SetPreviousNode(this->_head);
         this->_tail->SetNextNode(nullptr);
 
         this->_previous = nullptr;
@@ -24,13 +24,13 @@ public:
 
     DoublyLinkedList<T>(T head, T tail)
     {
-        this->_head = new Node<T>(head);
-        this->_tail = new Node<T>(tail);
+        this->_head = new LinkedNode<T>(head);
+        this->_tail = new LinkedNode<T>(tail);
 
-        this->_head->SerPreviousNode(this->_previous);
+        this->_head->SetPreviousNode(this->_previous);
         this->_head->SetNextNode(this->_tail);
 
-        this->_tail->SerPreviousNode(this->_head);
+        this->_tail->SetPreviousNode(this->_head);
         this->_tail->SetNextNode(nullptr);
 
         this->_previous = nullptr;
@@ -45,7 +45,7 @@ public:
         if (this->IsEmpty())
             throw std::out_of_range("List is Empty.");
 
-        Node<T> *temp = this->_head;
+        LinkedNode<T> *temp = this->_head;
 
         while (true)
         {
@@ -64,7 +64,7 @@ public:
     {
         while (!this->isNull(this->_head))
         {
-            Node<T> *temp = this->_head;
+            LinkedNode<T> *temp = this->_head;
             this->_head = this->_head->GetNextNode();
             temp = nullptr;
             delete (temp);
@@ -73,9 +73,9 @@ public:
         this->_size = 0;
     }
 
-    void AddFirst(Node<T> *newNode) override
+    void AddFirst(LinkedNode<T> *newNode) override
     {
-        Node<T> *temp = this->_head;
+        LinkedNode<T> *temp = this->_head;
         this->_head = newNode;
 
         if(this->isNull(temp)){
@@ -86,25 +86,25 @@ public:
         }
 
         this->_head->SetNextNode(temp);
-        temp->SerPreviousNode(this->_head);
+        temp->SetPreviousNode(this->_head);
         this->_size++;
 
     }
 
     void AddFirst(T item) override
     {
-        auto *newNode = new Node<T>(item);
+        auto *newNode = new LinkedNode<T>(item);
         AddFirst(newNode);
     }
 
 
-    void AddLast(Node<T> *newNode) override
+    void AddLast(LinkedNode<T> *newNode) override
     {
 
-        Node<T> *temp = this->_tail;
+        LinkedNode<T> *temp = this->_tail;
         temp->SetNextNode(newNode);
         this->_tail = temp->GetNextNode();
-        this->_tail->SerPreviousNode(temp);
+        this->_tail->SetPreviousNode(temp);
 
         temp = nullptr;
         delete (temp);
@@ -114,7 +114,7 @@ public:
 
     void AddLast(T item) override
     {
-        auto *newNode = new Node<T>(item);
+        auto *newNode = new LinkedNode<T>(item);
         AddLast(newNode);
     }
 
@@ -129,7 +129,7 @@ public:
         if(this->isNull(this->_head))
             return;
 
-        this->_head->SerPreviousNode(nullptr);
+        this->_head->SetPreviousNode(nullptr);
 
     }
 
@@ -153,7 +153,7 @@ public:
 
     bool Contains(T value) override
     {
-        Node<T> *temp = this->_head;
+        LinkedNode<T> *temp = this->_head;
 
         while (!this->isNull(temp))
         {
@@ -183,15 +183,15 @@ public:
             return;
         }
 
-        Node<T> *previous = this->_head;
-        Node<T> *current = this->_head->GetNextNode();
+        LinkedNode<T> *previous = this->_head;
+        LinkedNode<T> *current = this->_head->GetNextNode();
 
         while (!this->isNull(current))
         {
             if (current->GetValue() == value)
             {
                 previous->SetNextNode(current->GetNextNode());
-                current->GetNextNode()->SerPreviousNode(previous);
+                current->GetNextNode()->SetPreviousNode(previous);
                 this->_size--;
                 break;
             }
@@ -234,7 +234,7 @@ public:
             current = current->GetNextNode();
 
         auto *temp = current;
-        current = new Node<T>(item);
+        current = new LinkedNode<T>(item);
         current->SetNextNode(temp->GetNextNode());
         temp->SetNextNode(current);
     }

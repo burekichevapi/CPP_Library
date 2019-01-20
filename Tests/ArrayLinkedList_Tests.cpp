@@ -14,7 +14,7 @@ public:
     virtual void SetUp()
     {
         arrayLinkedList = new ArrayLinkedList<long long int>();
-        arrayLinkedList->AddFirst(new Node<long long int>(1));
+        arrayLinkedList->AddFirst(new LinkedNode<long long int>(1));
     }
 
     virtual void TearDown()

@@ -26,12 +26,12 @@ public:
         }
     }
 
-    void Push(Node<T> *node) override
+    void Push(LinkedNode<T> *node) override
     { this->_linkedList->AddFirst(node); }
 
     void Push(T item)
     {
-        Node<T> *newNode = new Node<T>(item);
+        LinkedNode<T> *newNode = new LinkedNode<T>(item);
         Push(newNode);
     };
 

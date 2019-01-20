@@ -1,13 +1,14 @@
 #ifndef AMER_DELIC_ILINKEDLIST_H
 #define AMER_DELIC_ILINKEDLIST_H
 
-#include "Node.h"
+#include "LinkedNode.h"
 
 
-template <class T> class ILinkedList
+template <class T>
+class ILinkedList
 {
 protected:
-    Node<T> *_head = nullptr,
+    LinkedNode<T> *_head = nullptr,
             *_tail = nullptr,
             *_previous = nullptr;
 
@@ -15,17 +16,17 @@ protected:
 
     unsigned int _size = 0;
 
-    bool isNull(Node<T> *temp)
+    bool isNull(LinkedNode<T> *temp)
     { return temp == nullptr; }
 
-    bool nextIsNull(Node<T> *temp)
+    bool nextIsNull(LinkedNode<T> *temp)
     { return temp->GetNextNode() == nullptr; }
 
 public:
     bool IsEmpty()
     { return _size == 0; }
 
-    Node<T> *GetHeadPointer()
+    LinkedNode<T> *GetHeadPointer()
     {return this->_head; }
 
     void IncreaseSize()
@@ -37,11 +38,11 @@ public:
 
     virtual void Clear() = 0;
 
-    virtual void AddFirst(Node<T> *newNode) = 0;
+    virtual void AddFirst(LinkedNode<T> *newNode) = 0;
 
     virtual void AddFirst(T item) = 0;
 
-    virtual void AddLast(Node<T> *newNode) = 0;
+    virtual void AddLast(LinkedNode<T> *newNode) = 0;
 
     virtual void AddLast(T item) = 0;
 

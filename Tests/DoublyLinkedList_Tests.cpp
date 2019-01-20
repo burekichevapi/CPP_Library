@@ -6,7 +6,7 @@
 #include <gmock/gmock.h>
 #include "ILinkedList.h"
 #include "../src/LinkedLists/DoublyLinkedList.cpp"
-#include "../src/Node.cpp"
+#include "../src/Nodes/LinkedNode.cpp"
 
 class DoublyLinkedList_Tests : public testing::Test
 {
