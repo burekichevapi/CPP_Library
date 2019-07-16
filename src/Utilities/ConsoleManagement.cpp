@@ -1,6 +1,5 @@
 
 #include <iostream>
-#include <vector>
 #include "ConsoleManagement.h"
 
 void ClearConsole()

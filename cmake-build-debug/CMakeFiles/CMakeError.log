@@ -1,22 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e004/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e004.dir/build.make CMakeFiles/cmTC_8e004.dir/build
-make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e004.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8e004.dir/CheckSymbolExists.c.o   -c "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
-Linking C executable cmTC_8e004
-/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e004.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8e004.dir/CheckSymbolExists.c.o  -o cmTC_8e004 
-/usr/bin/ld: CMakeFiles/cmTC_8e004.dir/CheckSymbolExists.c.o: in function `main':
+Run Build Command:"/usr/bin/make" "cmTC_9def3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9def3.dir/build.make CMakeFiles/cmTC_9def3.dir/build
+make[1]: Entering directory '/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9def3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9def3.dir/CheckSymbolExists.c.o   -c "/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_9def3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9def3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9def3.dir/CheckSymbolExists.c.o  -o cmTC_9def3 
+CMakeFiles/cmTC_9def3.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_8e004.dir/build.make:87: cmTC_8e004] Error 1
-make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_8e004/fast] Error 2
+CMakeFiles/cmTC_9def3.dir/build.make:97: recipe for target 'cmTC_9def3' failed
+make[1]: *** [cmTC_9def3] Error 1
+make[1]: Leaving directory '/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9def3/fast' failed
+make: *** [cmTC_9def3/fast] Error 2
 
-File /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -32,20 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d42be/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d42be.dir/build.make CMakeFiles/cmTC_d42be.dir/build
-make[1]: Entering directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d42be.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d42be.dir/CheckFunctionExists.c.o   -c /home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d42be
-/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d42be.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d42be.dir/CheckFunctionExists.c.o  -o cmTC_d42be -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_47852/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47852.dir/build.make CMakeFiles/cmTC_47852.dir/build
+make[1]: Entering directory '/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47852.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_47852.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_47852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47852.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_47852.dir/CheckFunctionExists.c.o  -o cmTC_47852 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_d42be.dir/build.make:87: cmTC_d42be] Error 1
-make[1]: Leaving directory '/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_d42be/fast] Error 2
+CMakeFiles/cmTC_47852.dir/build.make:97: recipe for target 'cmTC_47852' failed
+make[1]: *** [cmTC_47852] Error 1
+make[1]: Leaving directory '/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_47852/fast' failed
+make: *** [cmTC_47852/fast] Error 2
 
 

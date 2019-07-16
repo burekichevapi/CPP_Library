@@ -1,4 +1,4 @@
-/home/amer/Documents/CLion-2018.3.1/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic"
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/amer/amerdelic@mail.usf.edu/My Projects/Amer_Delic/cmake-build-debug
+-- Build files have been written to: /mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/cmake-build-debug

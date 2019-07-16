@@ -35,37 +35,44 @@ public:
     }
 };
 
-TEST_F(Stack_Tests , Assert_Is_Not_Empty)
+TEST_F(Stack_Tests , IsEmpty_Assert_Is_Not_Empty)
 {
     ASSERT_THAT(stackNum->IsEmpty(), false);
 }
 
-TEST_F(Stack_Tests , Assert_That_Stack_Has_One_Value)
+TEST_F(Stack_Tests , GetDepth_Assert_That_Stack_Has_One_Value)
 {
     ASSERT_THAT(stackNum->GetDepth(), 1);
 }
 
-TEST_F(Stack_Tests , Assert_Is_Empty_After_Pop)
+TEST_F(Stack_Tests , Pop_Assert_Is_Empty_After_Pop)
 {
     stackNum->Pop();
     ASSERT_THAT(stackNum->IsEmpty(), true);
 }
 
-TEST_F(Stack_Tests , Assert_Can_Push_Value_Top_Of_Stack)
+TEST_F(Stack_Tests , Pop_Assert_Does_Not_Throw_On_Empty_List)
+{
+    stackNum->Pop();
+    ASSERT_THAT(stackNum->IsEmpty(), true);
+    ASSERT_NO_THROW(stackNum->Pop());
+}
+
+TEST_F(Stack_Tests , Push_Assert_Can_Push_Value_Top_Of_Stack)
 {
     push2and3(stackNum);
 
     ASSERT_THAT(stackNum->GetDepth(), 3);
 }
 
-TEST_F(Stack_Tests , Assert_Can_Pekk_Value_Top_Of_Stack)
+TEST_F(Stack_Tests , Peek_Assert_Can_Peek_Value_Top_Of_Stack)
 {
     push2and3(stackNum);
 
     ASSERT_THAT(stackNum->Peek(), 3);
 }
 
-TEST_F(Stack_Tests , Assert_Can_Pop_Top_Value)
+TEST_F(Stack_Tests , Pop_Assert_Can_Pop_Top_Value)
 {
     push2and3(stackNum);
     stackNum->Pop();
@@ -73,9 +80,24 @@ TEST_F(Stack_Tests , Assert_Can_Pop_Top_Value)
     ASSERT_THAT(stackNum->GetDepth(), 2);
 }
 
-TEST_F(Stack_Tests , Assert_Is_Empty_After_Clear)
+TEST_F(Stack_Tests , Clear_Assert_Is_Empty_After_Clear)
 {
     push2and3(stackNum);
     stackNum->Clear();
     ASSERT_THAT(stackNum->IsEmpty(), true);
 }
+
+TEST_F(Stack_Tests , Clear_Assert_Does_Not_Throw_On_Empty_List)
+{
+    stackNum->Clear();
+    ASSERT_THAT(stackNum->IsEmpty(), true);
+    ASSERT_NO_THROW(stackNum->Clear());
+}
+
+TEST_F(Stack_Tests , Peek_Assert_Does_Not_Throw_On_Empty_List)
+{
+    stackNum->Clear();
+    ASSERT_THAT(stackNum->IsEmpty(), true);
+    ASSERT_NO_THROW(stackNum->Peek());
+}
+
