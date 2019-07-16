@@ -27,17 +27,13 @@ public:
     void Clear() override
     {
         this->_size = 0;
-        this->_items = nullptr;
         delete (this->_items);
-
         this->_items = new T[0];
     }
 
     void AddFirst(T item) override
     {
-        this->_size++;
-
-        T *newArray = new T[this->_size];
+        T *newArray = new T[++this->_size];
         newArray[0] = item;
 
         for(int i = 1; i < this->_size; i++)

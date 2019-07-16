@@ -5,7 +5,6 @@
 template <class T>
 class LinkedList : public ILinkedList<T>
 {
-
 public:
     LinkedList(LinkedNode<T> *head)
     {
@@ -32,7 +31,7 @@ public:
 
         LinkedNode<T> *temp = this->_head;
 
-        while (true)
+        while(true)
         {
             if (this->nextIsNull(temp))
             {
@@ -57,8 +56,6 @@ public:
         this->_size = 0;
     }
 
-
-
     void AddFirst(LinkedNode<T> *newNode) override
     {
         LinkedNode<T> *temp = this->_head;
@@ -72,10 +69,7 @@ public:
     }
 
     void AddFirst(T item) override
-    {
-        auto *newNode = new LinkedNode<T>(item);
-        AddFirst(newNode);
-    }
+    { AddFirst(new LinkedNode<T>(item)); }
 
     void AddLast(LinkedNode<T> *newNode) override
     {
@@ -96,10 +90,7 @@ public:
     }
 
     void AddLast(T item) override
-    {
-        auto *newNode = new LinkedNode<T>(item);
-        AddLast(newNode);
-    }
+    { AddLast(new LinkedNode<T>(item)); }
 
     void RemoveFirst() override
     {
@@ -151,33 +142,28 @@ public:
             throw std::out_of_range("List is Empty.");
 
         if(this->_head->GetValue() == value)
-        {
             RemoveFirst();
-            return;
-        }
-
-        if(this->_tail->GetValue() == value)
-        {
+        else if(this->_tail->GetValue() == value)
             RemoveLast();
-            return;
-        }
-
-        LinkedNode<T> *previous = this->_head;
-        LinkedNode<T> *current = this->_head->GetNextNode();
-
-        while(!this->nextIsNull(current))
+        else
         {
-            if(current->GetValue() == value)
-            {
-                previous->SetNextNode(current->GetNextNode());
-                current = nullptr;
-                delete(current);
-                this->_size--;
-                break;
-            }
+            LinkedNode<T> *previous = this->_head;
+            LinkedNode<T> *current = this->_head->GetNextNode();
 
-            previous = current;
-            current = current->GetNextNode();
+            while(!this->nextIsNull(current))
+            {
+                if(current->GetValue() == value)
+                {
+                    previous->SetNextNode(current->GetNextNode());
+                    current = nullptr;
+                    delete(current);
+                    this->_size--;
+                    break;
+                }
+
+                previous = current;
+                current = current->GetNextNode();
+            }
         }
     }
 
@@ -203,19 +189,20 @@ public:
             throw std::out_of_range("Index is out of range.");
 
         if(index == 0)
-        {
             AddFirst(item);
-            return;
+        else if(index == this->_size)
+            AddLast(item);
+        else
+        {
+            auto *current = this->_head;
+
+            for(unsigned int i = 1; i < index; i++)
+                current = current->GetNextNode();
+
+            auto *temp = current;
+            current = new LinkedNode<T>(item);
+            current->SetNextNode(temp->GetNextNode());
+            temp->SetNextNode(current);
         }
-
-        auto *current = this->_head;
-
-        for(unsigned int i = 1; i < index; i++)
-            current = current->GetNextNode();
-
-        auto *temp = current;
-        current = new LinkedNode<T>(item);
-        current->SetNextNode(temp->GetNextNode());
-        temp->SetNextNode(current);
     }
 };

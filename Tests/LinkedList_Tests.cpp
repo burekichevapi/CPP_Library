@@ -19,7 +19,7 @@ public:
 
     virtual void TearDown()
     {
-        linkedListNum = nullptr;
+        linkedListNum->Clear();
         delete linkedListNum;
     }
 };
@@ -42,7 +42,19 @@ TEST_F(LinkedList_Tests, Assert_Is_Empty_When_Clear_All)
     linkedListNum->AddFirst(88);
     linkedListNum->Clear();
 
-    ASSERT_THAT(linkedListNum->GetSize(), 0);
+    ASSERT_THAT(linkedListNum->IsEmpty(), true);
+}
+
+TEST_F(LinkedList_Tests, Assert_Can_Add_More_Items_After_ClearAll)
+{
+    linkedListNum->Clear();
+    linkedListNum->AddLast(2);
+    linkedListNum->AddLast(2);
+    linkedListNum->AddFirst(88);
+
+    ASSERT_THAT(linkedListNum->IsEmpty(), false);
+    ASSERT_THAT(linkedListNum->GetHeadValue(), 88);
+    ASSERT_THAT(linkedListNum->GetTailValue(), 2);
 }
 
 TEST_F(LinkedList_Tests, Assert_Can_Add_First)
@@ -50,6 +62,7 @@ TEST_F(LinkedList_Tests, Assert_Can_Add_First)
     linkedListNum->AddFirst(2);
 
     ASSERT_THAT(linkedListNum->GetHeadValue(), 2);
+    ASSERT_THAT(linkedListNum->GetTailValue(), 1);
 }
 
 TEST_F(LinkedList_Tests, Assert_Can_Add_Last)
@@ -57,6 +70,7 @@ TEST_F(LinkedList_Tests, Assert_Can_Add_Last)
     linkedListNum->AddLast(2);
 
     ASSERT_THAT(linkedListNum->GetTailValue(), 2);
+    ASSERT_THAT(linkedListNum->GetHeadValue(), 1);
 }
 
 TEST_F(LinkedList_Tests, Assert_Can_Remove_First)
@@ -128,4 +142,20 @@ TEST_F(LinkedList_Tests, Assert_Throws_When_Empty_Calling_Get_Head_Value)
 {
     linkedListNum->RemoveFirst();
     ASSERT_THROW(linkedListNum->GetHeadValue(), std::out_of_range);
+}
+
+TEST_F(LinkedList_Tests, Assert_Throws_When_InsertAt_OutOfRange)
+{
+    ASSERT_THROW(linkedListNum->InsertAt(3,3), std::out_of_range);
+}
+
+TEST_F(LinkedList_Tests, Assert_Can_InsertAT_Index)
+{
+    linkedListNum->InsertAt(0,2);
+    linkedListNum->InsertAt(1,3);
+    linkedListNum->InsertAt(2,3);
+
+    ASSERT_THAT(linkedListNum->GetSize(), 3);
+    ASSERT_THAT(linkedListNum->GetTailValue(), 3);
+    ASSERT_THAT(linkedListNum->GetHeadValue(), 2);
 }
