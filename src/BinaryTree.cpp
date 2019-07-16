@@ -24,9 +24,7 @@ private:
     }
 public:
     BinaryTree(BinaryNode<T>* rootNode)
-    {
-        this->_rootNode = rootNode;
-    }
+    { this->_rootNode = rootNode; }
 
     void Insert(BinaryNode<T>* node, T value) override
     {

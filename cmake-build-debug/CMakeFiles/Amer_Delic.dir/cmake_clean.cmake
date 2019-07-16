@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Amer_Delic.dir/Tests/ArrayLinkedList_Tests.cpp.o"
   "CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Mock.cpp.o"
   "CMakeFiles/Amer_Delic.dir/Tests/Queue_Tests.cpp.o"
+  "CMakeFiles/Amer_Delic.dir/Tests/PriorityQueue_Tests.cpp.o"
   "Amer_Delic.pdb"
   "Amer_Delic"
 )

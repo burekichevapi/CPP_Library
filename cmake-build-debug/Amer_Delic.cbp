@@ -352,6 +352,9 @@
 		<Unit filename="/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/Tests/LinkedList_Tests.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/Tests/PriorityQueue_Tests.cpp">
+			<Option target="Amer_Delic"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/amerd/Google Drive/My Projects/C and C++/Amer_Delic/Tests/Queue_Tests.cpp">
 			<Option target="Amer_Delic"/>
 		</Unit>

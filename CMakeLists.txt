@@ -22,7 +22,10 @@ set(TEST_FILES
         Tests/LinkedList_Tests.cpp
         Tests/DoublyLinkedList_Tests.cpp
         Tests/Stack_Tests.cpp
-        Tests/ArrayLinkedList_Tests.cpp Tests/LinkedList_Mock.cpp Tests/Queue_Tests.cpp)
+        Tests/ArrayLinkedList_Tests.cpp
+        Tests/LinkedList_Mock.cpp
+        Tests/Queue_Tests.cpp
+        Tests/PriorityQueue_Tests.cpp)
 
 add_executable(Amer_Delic ${SOURCE_FILES} ${TEST_FILES})
 

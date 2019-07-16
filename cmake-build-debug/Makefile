@@ -329,6 +329,33 @@ Tests/LinkedList_Tests.cpp.s:
 	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/LinkedList_Tests.cpp.s
 .PHONY : Tests/LinkedList_Tests.cpp.s
 
+Tests/PriorityQueue_Tests.o: Tests/PriorityQueue_Tests.cpp.o
+
+.PHONY : Tests/PriorityQueue_Tests.o
+
+# target to build an object file
+Tests/PriorityQueue_Tests.cpp.o:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/PriorityQueue_Tests.cpp.o
+.PHONY : Tests/PriorityQueue_Tests.cpp.o
+
+Tests/PriorityQueue_Tests.i: Tests/PriorityQueue_Tests.cpp.i
+
+.PHONY : Tests/PriorityQueue_Tests.i
+
+# target to preprocess a source file
+Tests/PriorityQueue_Tests.cpp.i:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/PriorityQueue_Tests.cpp.i
+.PHONY : Tests/PriorityQueue_Tests.cpp.i
+
+Tests/PriorityQueue_Tests.s: Tests/PriorityQueue_Tests.cpp.s
+
+.PHONY : Tests/PriorityQueue_Tests.s
+
+# target to generate assembly for a file
+Tests/PriorityQueue_Tests.cpp.s:
+	$(MAKE) -f CMakeFiles/Amer_Delic.dir/build.make CMakeFiles/Amer_Delic.dir/Tests/PriorityQueue_Tests.cpp.s
+.PHONY : Tests/PriorityQueue_Tests.cpp.s
+
 Tests/Queue_Tests.o: Tests/Queue_Tests.cpp.o
 
 .PHONY : Tests/Queue_Tests.o
@@ -736,6 +763,9 @@ help:
 	@echo "... Tests/LinkedList_Tests.o"
 	@echo "... Tests/LinkedList_Tests.i"
 	@echo "... Tests/LinkedList_Tests.s"
+	@echo "... Tests/PriorityQueue_Tests.o"
+	@echo "... Tests/PriorityQueue_Tests.i"
+	@echo "... Tests/PriorityQueue_Tests.s"
 	@echo "... Tests/Queue_Tests.o"
 	@echo "... Tests/Queue_Tests.i"
 	@echo "... Tests/Queue_Tests.s"
