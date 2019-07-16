@@ -13,13 +13,7 @@ public:
         this->_size = 1;
     }
 
-    LinkedList(T item)
-    {
-        auto *head = new LinkedNode<T>(item);
-        this->_head = head;
-        this->_tail = head;
-        this->_size = 1;
-    }
+    LinkedList(T item) : LinkedList(new LinkedNode<T>(item)){}
 
     unsigned int GetSize() override
     { return this->_size; }

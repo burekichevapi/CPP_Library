@@ -1,7 +1,11 @@
 //
 // Created by amer on 1/11/19.
 //
+// TODO: In Enqueue method. Exposes Head pointer of node.
+// TODO In Enqueue method. Exposes LinkedList IncreaseSize method.
 
+#include <stdexcept>
+#include <iostream>
 #include "ILinkedList.h"
 #include "IQueue.h"
 
@@ -41,13 +45,34 @@ public:
     }
 
     void Dequeue() override
-    { this->linkedList->RemoveFirst(); }
+    {
+        try
+        {
+            this->linkedList->RemoveFirst();
+        }
+        catch(std::out_of_range& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+        }
+    }
 
     T GetNextItem() override
-    { return this->linkedList->GetHeadValue(); }
+    {
+        try
+        {
+            return this->linkedList->GetHeadValue();
+        }
+        catch(std::out_of_range& ex)
+        {
+            std::cout << "\nError: " << ex.what() << "\n";
+        }
+    }
 
     void Clear() override
-    { this->linkedList->Clear(); }
+    {this->linkedList->Clear();}
+
+    bool Empty() override
+    {return this->linkedList->IsEmpty();}
 
     void PrintAll()
     { this->linkedList->PrintAll(); }

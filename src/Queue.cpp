@@ -41,15 +41,12 @@ public:
     }
 
     void Clear() override
-    {
-        try
-        {
-            this->linkedList->Clear();
-        }
-        catch(std::out_of_range& ex)
-        {
-            std::cout << "\nError: " << ex.what() << "\n";
-        }
-    }
+    {this->linkedList->Clear();}
+
+    bool Empty() override
+    {return this->linkedList->IsEmpty();}
+
+    void PrintAll()
+    { this->linkedList->PrintAll(); }
 
 };

@@ -18,7 +18,7 @@ public:
 
     virtual void Push(T item) = 0;
 
-    virtual void Pop() = 0;
+    virtual T Pop() = 0;
 
     virtual void Clear() = 0;
 

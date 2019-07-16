@@ -30,16 +30,15 @@ public:
     { this->_linkedList->AddFirst(node); }
 
     void Push(T item)
-    {
-        LinkedNode<T> *newNode = new LinkedNode<T>(item);
-        Push(newNode);
-    };
+    {Push(new LinkedNode<T>(item));}
 
-    void Pop() override
+    T Pop() override
     {
         try
         {
+            T value = this->_linkedList->GetHeadValue();
             this->_linkedList->RemoveFirst();
+            return value;
         }
         catch(std::out_of_range& ex)
         {
@@ -49,16 +48,7 @@ public:
     }
 
     void Clear() override
-    {
-        try
-        {
-            this->_linkedList->Clear();
-        }
-        catch(std::out_of_range& ex)
-        {
-            std::cout << "\nError: " << ex.what() << "\n";
-        }
-    }
+    {this->_linkedList->Clear();}
 
     T Peek() override
     {
@@ -71,5 +61,4 @@ public:
             std::cout << "\nError: " << ex.what() << "\n";
         }
     }
-
 };

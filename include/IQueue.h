@@ -20,6 +20,8 @@ public:
 
     virtual void Clear() = 0;
 
+    virtual bool Empty() = 0;
+
 };
 
 
